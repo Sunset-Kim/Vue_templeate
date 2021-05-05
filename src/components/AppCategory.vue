@@ -80,6 +80,7 @@ export default {}
 .title-group {
     text-align: center;
     margin-bottom: 9rem;
+    color: var(--text-dark);
 }
 .title-top {
     color: var(--primary);
@@ -100,7 +101,6 @@ export default {}
     margin-left: 1.5rem;
 }
 .title-main {
-    color: var(--text-dark);
     font-size: 5.5rem;
     letter-spacing: -0.02em;
     line-height: 6rem;
@@ -108,7 +108,6 @@ export default {}
     margin-bottom: 1.5rem;
 }
 .title-sub {
-    color: var(--text-dark);
     font-size: 5.5rem;
     letter-spacing: -0.02em;
     font-weight: 300;
