@@ -6,6 +6,7 @@
         <app-about></app-about>
         <app-subbanner></app-subbanner>
         <app-best></app-best>
+        <app-subscribe></app-subscribe>
     </div>
 </template>
 
@@ -16,6 +17,7 @@ import AppProject from './components/AppProject'
 import AppAbout from './components/AppAbout'
 import AppSubbanner from './components/AppSubbanner'
 import AppBest from './components/AppBest'
+import AppSubscribe from './components/AppSubscribe'
 
 export default {
     name: 'App',
@@ -26,6 +28,7 @@ export default {
         AppAbout,
         AppSubbanner,
         AppBest,
+        AppSubscribe,
     },
 }
 </script>

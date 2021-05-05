@@ -122,7 +122,7 @@ export default {}
 
 <style>
 #app-best {
-    padding: 13rem 0;
+    padding: 13rem 0 26rem;
     background: #f6f3f1;
 }
 .best-container {
