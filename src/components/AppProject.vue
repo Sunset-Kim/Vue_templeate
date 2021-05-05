@@ -271,6 +271,13 @@ export default {
     border-radius: 50%;
     margin-right: 1rem;
     background: #000;
+    overflow: hidden;
+}
+.author-img img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .day i {
     color: var(--primary)
