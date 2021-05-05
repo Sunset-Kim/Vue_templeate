@@ -1,91 +1,97 @@
 <template>
-  <div id="app-header">
-      <div class="header-top">
-          <div class="header-wrap">
-            <div class="top-left">
-              <span>
-                  <i class="far fa-envelope"></i>
-                  suppoert@gmail.com
-              </span>
-              <span>
-                  <i class="fas fa-map-marker-alt"></i>
-                  250 Main Street, 2nd Floor, USA
-              </span>
+    <div id="app-header">
+        <div class="header-top">
+            <div class="header-wrap">
+                <div class="top-left">
+                    <span>
+                        <i class="far fa-envelope"></i>
+                        suppoert@gmail.com
+                    </span>
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                        250 Main Street, 2nd Floor, USA
+                    </span>
+                </div>
+                <div class="top-right">
+                    <span>
+                        <i class="fas fa-unlock-alt"></i>
+                        Login Or Sign up
+                    </span>
+                    <ul class="sns-group">
+                        <li>
+                            <a href="/"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="/"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="/"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="/"><i class="fab fa-behance"></i></a>
+                        </li>
+                        <li>
+                            <a href="/"><i class="fab fa-google-plus-g"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="top-right">
-                <span>
-                    <i class="fas fa-unlock-alt"></i>
-                    Login Or Sign up
-                </span>
-                <ul class="sns-group">
-                    <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="/"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="/"><i class="fab fa-behance"></i></a></li>
-                    <li><a href="/"><i class="fab fa-google-plus-g"></i></a></li>
+        </div>
+
+        <nav class="gnb">
+            <div class="header-wrap">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../assets/Logo.png" alt="로고" />
+                    </a>
+                </div>
+                <ul class="depth1-menu">
+                    <li><a href="#none">Header</a></li>
+                    <li><a href="#none">Project</a></li>
+                    <li><a href="#none">Events</a></li>
+                    <li><a href="#none">News</a></li>
+                    <li><a href="#none">Pages</a></li>
+                    <li><a href="#none">Contact</a></li>
                 </ul>
+                <button class="btn-190 btn-secondary btn-main-ef">
+                    get a quote
+                </button>
             </div>
-          </div>
-          
-      </div>
+        </nav>
 
-      <nav class="gnb">
-          <div class="header-wrap">
-            <div class="logo">
-                <a href="#">
-                    <img src="../assets/Logo.png" alt="로고">
-                </a>
+        <div class="header-slide-container">
+            <div class="header-slide">
+                <img src="../assets/header/slide01.jpg" alt="이미지1" />
+                <div class="header-slide-text">
+                    <div class="wrap">
+                        <div class="top-text">Crowd Founding</div>
+                        <div class="bold-text">Change World</div>
+                        <div class="regular-text">Better Future</div>
+                        <div class="btn-group">
+                            <button class="btn-190 btn-secondary btn-main-ef">
+                                Explore More
+                            </button>
+                            <button class="btn-190 btn-outlined btn-main-ef">
+                                Donate Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ul class="depth1-menu">
-                <li><a href="#none">Header</a></li>
-                <li><a href="#none">Project</a></li>
-                <li><a href="#none">Events</a></li>
-                <li><a href="#none">News</a></li>
-                <li><a href="#none">Pages</a></li>
-                <li><a href="#none">Contact</a></li>
-            </ul>
-            <button class="btn-192 btn-secondary btn-main-ef">get a quote</button>
-          </div>
-      </nav>
-
-      <div class="header-slide-container">
-          <div class="header-slide">
-              <img src="../assets/header/slide01.jpg" alt="이미지1">
-              <div class="header-slide-text">
-                  <div class="wrap">
-                      <div class="top-text">
-                        Crowd Founding
-                      </div>
-                      <div class="bold-text">
-                          Change World
-                      </div>
-                      <div class="regular-text">
-                          Better Future
-                      </div>
-                      <div class="btn-group">
-                          <button class="btn-192 btn-secondary btn-main-ef">Explore More</button>
-                          <button class="btn-192 btn-outlined btn-main-ef">Donate Now</button>
-                      </div>
-                  </div>
-                  
-              </div>
-          </div>
-          <div class="header-pagination">
-              <button class="btn-prev btn-pagination">
-                  <i class="fas fa-chevron-left"></i>
-              </button>
-              <button class="btn-next btn-pagination">
-                  <i class="fas fa-chevron-right"></i>
-              </button>
-          </div>
-      </div>
-  </div>
+            <div class="header-pagination">
+                <button class="btn-prev btn-pagination">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="btn-next btn-pagination">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style>
@@ -119,16 +125,16 @@ export default {
     display: flex;
     margin-left: 25px;
 }
-.sns-group a{
+.sns-group a {
     padding: 0 1rem;
 }
 .sns-group a i {
     color: var(--text-light);
 }
-.sns-group a:hover i{
+.sns-group a:hover i {
     color: var(--secondary);
 }
-.sns-group li:last-child a{
+.sns-group li:last-child a {
     padding-right: 0;
 }
 /* haeder-nav */
@@ -140,10 +146,10 @@ export default {
     z-index: 999;
     color: var(--text-light);
 }
-.gnb .header-wrap{
+.gnb .header-wrap {
     align-items: center;
 }
-.gnb .logo a{
+.gnb .logo a {
     display: flex;
     height: 100%;
     align-items: center;
@@ -151,12 +157,12 @@ export default {
 .depth1-menu {
     display: flex;
 }
-.depth1-menu li a{
+.depth1-menu li a {
     display: block;
     font-size: 1.8rem;
     font-weight: bold;
     padding-right: 2rem;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .depth1-menu li a:hover {
     color: var(--secondary);
@@ -174,7 +180,7 @@ export default {
 .header-slide::before {
     content: '';
     position: absolute;
-    top:0;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;

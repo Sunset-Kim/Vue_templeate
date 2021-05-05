@@ -1,36 +1,26 @@
 <template>
-  <div id="app-project">
-      <div class="title-group">
-            <div class="title-top">
-                Features Projects
-            </div>
-            <div class="title-main">
-                We've Take A Mission To 
-            </div>
-            <div class="title-sub">
-                Solve The Project
-            </div>
+    <div id="app-project">
+        <div class="title-group">
+            <div class="title-top">Features Projects</div>
+            <div class="title-main">We've Take A Mission To</div>
+            <div class="title-sub">Solve The Project</div>
         </div>
 
         <div class="project-container">
             <div class="wrap">
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="" alt="">
+                        <img src="" alt="" />
                     </div>
                     <div class="project-text">
                         <h2 class="project-name">
-                            Reference Pico-Neo2<br>
+                            Reference Pico-Neo2<br />
                             Condition New
                         </h2>
                         <div class="project-progress">
                             <div class="progress-title">
-                                <span>
-                                    $2535
-                                </span>
-                                <span>
-                                    85%
-                                </span>
+                                <span> $2535 </span>
+                                <span> 85% </span>
                             </div>
                             <div class="progress-bg">
                                 <div class="progress-bar"></div>
@@ -38,7 +28,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="">
+                                        <img src="" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -53,21 +43,17 @@
 
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="" alt="">
+                        <img src="" alt="" />
                     </div>
                     <div class="project-text">
                         <h2 class="project-name">
-                            Reference Pico-Neo2<br>
+                            Reference Pico-Neo2<br />
                             Condition New
                         </h2>
                         <div class="project-progress">
                             <div class="progress-title">
-                                <span>
-                                    $2535
-                                </span>
-                                <span>
-                                    85%
-                                </span>
+                                <span> $2535 </span>
+                                <span> 85% </span>
                             </div>
                             <div class="progress-bg">
                                 <div class="progress-bar"></div>
@@ -75,7 +61,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="">
+                                        <img src="" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -90,21 +76,17 @@
 
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="" alt="">
+                        <img src="" alt="" />
                     </div>
                     <div class="project-text">
                         <h2 class="project-name">
-                            Reference Pico-Neo2<br>
+                            Reference Pico-Neo2<br />
                             Condition New
                         </h2>
                         <div class="project-progress">
                             <div class="progress-title">
-                                <span>
-                                    $2535
-                                </span>
-                                <span>
-                                    85%
-                                </span>
+                                <span> $2535 </span>
+                                <span> 85% </span>
                             </div>
                             <div class="progress-bg">
                                 <div class="progress-bar"></div>
@@ -112,7 +94,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="">
+                                        <img src="" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -127,21 +109,17 @@
 
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="" alt="">
+                        <img src="" alt="" />
                     </div>
                     <div class="project-text">
                         <h2 class="project-name">
-                            Reference Pico-Neo2<br>
+                            Reference Pico-Neo2<br />
                             Condition New
                         </h2>
                         <div class="project-progress">
                             <div class="progress-title">
-                                <span>
-                                    $2535
-                                </span>
-                                <span>
-                                    85%
-                                </span>
+                                <span> $2535 </span>
+                                <span> 85% </span>
                             </div>
                             <div class="progress-bg">
                                 <div class="progress-bar"></div>
@@ -149,7 +127,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="">
+                                        <img src="" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -163,35 +141,33 @@
                 </div>
             </div>
         </div>
-  </div>
+    </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style>
 #app-project {
     padding: 13rem 0;
 }
-.project-container .wrap{
+.project-container .wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0;
+    padding: 0 2rem;
 }
 .project-item {
     display: flex;
-    width: 570px;
+    width: 550px;
     height: 270px;
     margin-bottom: 3rem;
 }
-.project-item:hover .project-name{
+.project-item:hover .project-name {
     color: var(--primary);
 }
-.project-item:hover .project-img img{
+.project-item:hover .project-img img {
     transform: scale(1.1);
 }
 .project-item:nth-child(odd) {
@@ -208,7 +184,7 @@ export default {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .project-text {
     flex-grow: 1;
@@ -280,6 +256,6 @@ export default {
     object-fit: cover;
 }
 .day i {
-    color: var(--primary)
+    color: var(--primary);
 }
 </style>
