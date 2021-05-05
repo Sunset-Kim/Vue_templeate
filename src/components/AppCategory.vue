@@ -117,6 +117,7 @@ export default {
     font-size: 5.5rem;
     letter-spacing: -0.02em;
     font-weight: 900;
+    margin-bottom: 1.5rem;
 }
 .title-sub {
     color: var(--text-dark);
@@ -128,17 +129,19 @@ export default {
 /* category  */
 .category-container .wrap {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .category-item {
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 21rem;
     height: 20rem;
     margin-right: 4rem;
+    margin-bottom: 4rem;
     border-radius: 1rem;
+    background: white;
     transition: 0.3s ease-in-out;
 }
 .category-item:hover {
@@ -162,6 +165,7 @@ export default {
     transition: 0.3s ease-in-out;
 }
 .category-text {
+    text-align: center;
     font-size: 2rem;
     font-weight: 600;
 }
