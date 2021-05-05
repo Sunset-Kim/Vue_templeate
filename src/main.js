@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import 'reset.css'
 import './css/custom_reset.css'
+import './css/modules.css'
 
 Vue.config.productionTip = false
 

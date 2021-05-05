@@ -1,0 +1,84 @@
+/* 버튼모듈 
+*   총 3부분으로 구성
+*   사이즈 / 모양
+*   컬러 => 메인컬러와 텍스트 컬러적용, :hover 효과 적용후 텍스트 컬러, :before 효과 적용후 배경색
+*   효과
+*/
+
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+/* shape & size */
+.btn-192 {
+    width: 19.2rem;
+    height: 6rem;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* ef */
+.btn-main-ef {
+    position: relative;
+    transition: .3s ease-in-out;
+    overflow: hidden; 
+}
+.btn-main-ef:hover {
+    background: transparent;
+}
+.btn-main-ef::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0%;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    border-radius: 3em;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.btn-main-ef:hover::before {
+    width: 100%;
+    left: 0px;
+    right: auto;
+}
+/* bg */
+.btn-primary {
+    background: var(--primary);
+    color: white;
+}
+.btn-primary::before {
+    background: var(--secondary);
+}   
+
+.btn-secondary {
+    background: var(--secondary);
+}
+.btn-secondary:hover {
+    color: white;
+}
+.btn-secondary::before {
+    background: var(--primary);
+}
+
+.btn-tertiary {
+    background: var(--text-dark);
+}
+.btn-tertiary::before {
+    background: var(--secondary);
+}
+
+.btn-outlined {
+    border: 2px solid white;
+    color: white;
+}
+.btn-outlined:hover {
+    color: var(--text-dark);
+}
+.btn-outlined::before {
+    background: var(--secondary);
+}
