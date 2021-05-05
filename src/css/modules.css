@@ -13,6 +13,9 @@ button {
 }
 /* shape & size */
 .btn-192 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 19.2rem;
     height: 6rem;
     border-radius: 3rem;
