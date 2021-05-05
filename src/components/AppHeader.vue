@@ -1,5 +1,5 @@
 <template>
-  <div id=#app-header>
+  <div id="app-header">
       <div class="header-top">
           <div class="header-wrap">
             <div class="top-left">
@@ -133,7 +133,8 @@ export default {
 }
 /* haeder-nav */
 .gnb {
-    position: relative;
+    position: absolute;
+    width: 100%;
     height: 90px;
     line-height: 90px;
     z-index: 999;
@@ -163,8 +164,7 @@ export default {
 
 /* header-slide */
 .header-slide-container {
-    position: absolute;
-    top: 50px;
+    position: relative;
 }
 .header-slide {
     position: relative;
