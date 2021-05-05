@@ -7,6 +7,8 @@
         <app-subbanner></app-subbanner>
         <app-best></app-best>
         <app-subscribe></app-subscribe>
+        <app-team></app-team>
+        <app-count></app-count>
     </div>
 </template>
 
@@ -18,6 +20,8 @@ import AppAbout from './components/AppAbout'
 import AppSubbanner from './components/AppSubbanner'
 import AppBest from './components/AppBest'
 import AppSubscribe from './components/AppSubscribe'
+import AppTeam from './components/AppTeam'
+import AppCount from './components/AppCount'
 
 export default {
     name: 'App',
@@ -29,6 +33,8 @@ export default {
         AppSubbanner,
         AppBest,
         AppSubscribe,
+        AppTeam,
+        AppCount,
     },
 }
 </script>
