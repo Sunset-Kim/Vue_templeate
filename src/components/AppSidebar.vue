@@ -67,7 +67,7 @@
                 </a>
             </li>
         </ul>
-        <div class="overlay"></div>
+        <div @click="close" class="overlay"></div>
     </div>
 </template>
 
@@ -98,6 +98,11 @@ export default {
     width: 100%;
     height: 100%;
 }
+@media screen and (min-width: 787px) {
+    #app-sidebar {
+        display: none;
+    }
+}
 .overlay {
     position: fixed;
     top: 0;
@@ -125,7 +130,8 @@ export default {
     height: 100vh;
     padding: 8rem 4rem;
     background: var(--text-dark);
-    z-index: 99999;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.4);
+    z-index: 999999;
     color: white;
 }
 .side-menu li a {
