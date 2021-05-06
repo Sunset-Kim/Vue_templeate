@@ -11,6 +11,7 @@
         <app-count></app-count>
         <app-feedback></app-feedback>
         <app-logoslide></app-logoslide>
+        <app-news></app-news>
     </div>
 </template>
 
@@ -26,6 +27,7 @@ import AppTeam from './components/AppTeam'
 import AppCount from './components/AppCount'
 import AppFeedback from './components/AppFeedback'
 import AppLogoslide from './components/AppLogoslide'
+import AppNews from './components/AppNews'
 
 export default {
     name: 'App',
@@ -41,6 +43,7 @@ export default {
         AppCount,
         AppFeedback,
         AppLogoslide,
+        AppNews
     },
 }
 </script>
