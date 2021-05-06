@@ -68,7 +68,7 @@
                     <img src="../assets/header/slide01.jpg" alt="이미지1" />
                     <div class="header-slide-text">
                         <div class="wrap">
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
                                 <div class="top-text">Crowd Founding</div>
                                 <div class="bold-text">Change World</div>
                                 <div class="regular-text">Better Future</div>
@@ -89,7 +89,7 @@
                     <img src="../assets/header/slide02.jpg" alt="이미지1" />
                     <div class="header-slide-text">
                         <div class="wrap">
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
                                 <div class="top-text">Crowd Founding</div>
                                 <div class="bold-text">Change World</div>
                                 <div class="regular-text">Better Future</div>
@@ -111,7 +111,7 @@
                     <img src="../assets/header/slide03.jpg" alt="이미지1" />
                     <div class="header-slide-text">
                         <div class="wrap">
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
                                 <div class="top-text">Crowd Founding</div>
                                 <div class="bold-text">Change World</div>
                                 <div class="regular-text">Better Future</div>
@@ -362,6 +362,38 @@ export default {
     }
     .gnb button {
         display: none;
+    }
+    .header-slide-text .top-text {
+        margin-bottom: 2rem;
+    }
+    .header-slide-text .bold-text {
+        font-size: 5.5rem;
+    }
+    .header-slide-text .regular-text {
+        font-size: 5.5rem;
+    }
+    .header-slide-text .top-text::before {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .header-top {
+        display: none;
+    }
+    .gnb button {
+        display: none;
+    }
+    .header-slide-text .top-text {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .header-slide-text .bold-text {
+        font-size: 3.6rem;
+        margin-bottom: 1rem;
+    }
+    .header-slide-text .regular-text {
+        font-size: 3.6rem;
     }
 }
 </style>

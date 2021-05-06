@@ -65,9 +65,11 @@ export default {}
 .input-group label {
     display: block;
     font-size: 1.8rem;
+    line-height: 2.2rem;
     margin-bottom: 2.5rem;
 }
 .input-box {
+    display: inline-block;
     position: relative;
 }
 .input-email {
@@ -90,14 +92,33 @@ export default {}
 .btn-enter {
     position: absolute;
     top: 50%;
-    right: 3rem;
-    width: 55px;
-    height: 50px;
+    right: 2rem;
+    width: 5.5rem;
+    height: 5rem;
     background: var(--secondary);
     transform: translateY(-50%);
     transition: 0.3s ease-in-out;
 }
 .btn-enter:hover {
     background: var(--primary);
+}
+
+@media screen and (max-width: 1024px) {
+    .subscribe-box {
+        display: block;
+    }
+    .subscribe-box .title-group {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 610px) {
+    .input-box {
+        width: 100%;
+    }
+    .input-email {
+        width: 100%
+    }
 }
 </style>

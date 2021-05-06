@@ -34,10 +34,50 @@ a {
     html {
         font-size: 60%;
     }
+    .wrap {
+        padding: 0 4rem;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width: 786px) {
     html {
         font-size: 58.5%;
+    }
+    .wrap {
+        padding: 0 2rem;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    .title-main {
+        font-size: 3.6rem;
+        letter-spacing: -0.02em;
+        line-height: 4rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+    .title-sub {
+        font-size: 3.6rem;
+        letter-spacing: -0.02em;
+        font-weight: 300;
+    }
+}
+@media screen and (max-width: 370px) {
+    html {
+        font-size: 55%;
+    }
+    .title-main {
+        font-size: 3.6rem;
+        letter-spacing: -0.02em;
+        line-height: 4rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+    .title-sub {
+        font-size: 3.6rem;
+        letter-spacing: -0.02em;
+        font-weight: 300;
     }
 }

@@ -116,7 +116,7 @@ export default {}
 /* category  */
 .category-container .wrap {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
 }
 .category-item {
@@ -125,8 +125,7 @@ export default {}
     align-items: center;
     width: 21rem;
     height: 20rem;
-    margin-right: 4rem;
-    margin-bottom: 4rem;
+    margin: 0 1rem 4rem 1rem; 
     border-radius: 1rem;
     background: white;
     transition: 0.3s ease-in-out;

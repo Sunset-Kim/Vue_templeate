@@ -8,7 +8,7 @@
 
         <div class="wrap">
             <div class="best-container">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="best-item">
                         <div class="best-img">
                             <span class="label label-new">New</span>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="best-item">
                         <div class="best-img">
                             <img src="../assets/best/02.jpg" alt="" />
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="best-item">
                         <div class="best-img">
                             <span class="label label-hot">hot</span>
@@ -136,6 +136,9 @@ export default {}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.best-item {
+    margin-bottom: 2rem;
 }
 .best-item:hover img {
     transform: scale(1.1);

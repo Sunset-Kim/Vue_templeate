@@ -1,8 +1,7 @@
 <template>
     <div id="app-count">
-        <div class="wrap">
             <div class="count-container">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="count-item">
                         <div class="count-img">
                             <img src="../assets/count/icon1.png" alt="" />
@@ -12,7 +11,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="count-item">
                         <div class="count-img">
                             <img src="../assets/count/icon2.png" alt="" />
@@ -22,7 +21,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="count-item">
                         <div class="count-img">
                             <img src="../assets/count/icon3.png" alt="" />
@@ -32,7 +31,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="count-item">
                         <div class="count-img">
                             <img src="../assets/count/icon4.png" alt="" />
@@ -44,7 +43,6 @@
                 
             </div>
         </div>
-    </div>
 </template>
 
 <script>

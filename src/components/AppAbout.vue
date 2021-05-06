@@ -5,7 +5,7 @@
             <div class="right"></div>
         </div>
         <div class="wrap">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="about-left">
                     <div class="about-img">
                         <img src="../assets/about/about-main.jpg" alt="aboutimg" />
@@ -16,7 +16,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="about-right">
                     <div class="title-group">
                         <div class="title-top">Who We Are</div>
@@ -109,6 +109,7 @@ export default {}
     display: flex;
     height: 100%;
     align-items: flex-end;
+    margin: 0 auto;
 }
 .about-img {
     position: relative;
@@ -176,5 +177,25 @@ export default {}
     font-size: 1.5rem;
     line-height: 2.8rem;
     color: var(--text-second);
+}
+
+@media screen and (max-width: 1024px) {
+    #app-about .bg-group {
+        display: none;
+    }
+    .about-left {
+        justify-content: center;
+    }
+    .about-right {
+        padding-top: 3rem;
+    }
+}
+@media screen and (max-width: 786px) {
+    .about-title-sub {
+        display: block;
+    }
+    .about-title-sub button {
+        margin-top: 2rem;
+    }
 }
 </style>

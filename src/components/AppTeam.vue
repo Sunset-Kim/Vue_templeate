@@ -7,7 +7,7 @@
         </div>
         <div class="wrap">
             <div class="team-container">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="team-item">
                         <div class="team-img">
                             <img src="../assets/team/01.jpg" alt="" />
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="team-item">
                         <div class="team-img">
                             <img src="../assets/team/02.jpg" alt="" />
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="team-item">
                         <div class="team-img">
                             <img src="../assets/team/03.jpg" alt="" />
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="team-item">
                         <div class="team-img">
                             <img src="../assets/team/04.jpg" alt="" />
@@ -298,7 +298,7 @@ export default {}
 .team-sns-group {
     position: absolute;
     /* bottom: calc(4rem); */
-    bottom: -4rem;
+    bottom: -4.5rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;

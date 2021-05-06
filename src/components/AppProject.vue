@@ -8,7 +8,7 @@
 
         <div class="project-container">
             <div class="wrap">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="project-item">
                     <div class="project-img">
                         <img src="../assets/project/01.jpg" alt="프로젝트이미지" />
@@ -43,7 +43,7 @@
                 </div>
                 </div>
                 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="project-item">
                     <div class="project-img">
                         <img src="../assets/project/02.jpg" alt="프로젝트이미지2" />
@@ -78,7 +78,7 @@
                 </div>
                 </div>
                 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="project-item">
                     <div class="project-img">
                         <img src="../assets/project/03.jpg" alt="프로젝트이미지3" />
@@ -113,7 +113,7 @@
                 </div>
                 </div>
                 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="project-item">
                     <div class="project-img">
                         <img src="../assets/project/04.jpg" alt="프로젝트이미지4" />
@@ -265,5 +265,28 @@ export default {}
 }
 .day i {
     color: var(--primary);
+}
+
+@media screen and (max-width: 570px) {
+    .project-item {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .project-item:hover .project-img img {
+        transform: scale(1.1);
+    }
+    .project-item:nth-child(odd) {
+        margin-right: 3rem;
+    }
+    .project-img {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+    .project-img img {
+        object-fit: contain;
+    }
 }
 </style>
