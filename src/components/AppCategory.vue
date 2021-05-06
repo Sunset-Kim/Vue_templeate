@@ -116,7 +116,7 @@ export default {}
 /* category  */
 .category-container .wrap {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 .category-item {

@@ -10,7 +10,7 @@
             <div class="wrap">
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="" alt="" />
+                        <img src="../assets/project/01.jpg" alt="프로젝트이미지" />
                     </div>
                     <div class="project-text">
                         <h2 class="project-name">
@@ -28,7 +28,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="" />
+                                        <img src="../assets/project/author.png" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -43,7 +43,7 @@
 
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="" alt="" />
+                        <img src="../assets/project/02.jpg" alt="프로젝트이미지2" />
                     </div>
                     <div class="project-text">
                         <h2 class="project-name">
@@ -61,7 +61,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="" />
+                                        <img src="../assets/project/author.png" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -76,7 +76,7 @@
 
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="" alt="" />
+                        <img src="../assets/project/03.jpg" alt="프로젝트이미지3" />
                     </div>
                     <div class="project-text">
                         <h2 class="project-name">
@@ -94,7 +94,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="" />
+                                        <img src="../assets/project/author.png" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -109,7 +109,7 @@
 
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="" alt="" />
+                        <img src="../assets/project/04.jpg" alt="프로젝트이미지4" />
                     </div>
                     <div class="project-text">
                         <h2 class="project-name">
@@ -127,7 +127,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="" />
+                                        <img src="../assets/project/author.png" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -237,16 +237,17 @@ export default {}
     justify-content: space-between;
     align-items: center;
 }
-.author {
+.project-info .author {
     display: flex;
+    width: fit-content;
     align-items: center;
+    justify-content: flex-start;
 }
 .author-img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
     margin-right: 1rem;
-    background: #000;
     overflow: hidden;
 }
 .author-img img {

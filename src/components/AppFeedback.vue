@@ -8,9 +8,10 @@
 
         <div class="wrap">
             <div class="feedback-container">
+                
                 <div class="feedback-item">
                     <div class="feedback-img">
-                        <img src="" alt="">
+                        <img src="../assets/team/02.jpg" alt="">
                         <span class="label-img">
                             <i class="far fa-comment-dots"></i>
                         </span>
@@ -32,7 +33,7 @@
 
                 <div class="feedback-item">
                     <div class="feedback-img">
-                        <img src="" alt="">
+                        <img src="../assets/team/03.jpg" alt="">
                         <span class="label-img">
                             <i class="far fa-comment-dots"></i>
                         </span>

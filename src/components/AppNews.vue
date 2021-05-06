@@ -18,7 +18,7 @@
 
       <div class="news-article">
         <div class="news-img">
-          <img src="" alt="">
+          <img src="../assets/best/02.jpg" alt="">
         </div>
         <div class="news-text">
 
@@ -43,7 +43,7 @@
 
             <div class="author-info">
               <div class="author-img">
-                <img src="" alt="">
+                <img src="../assets/team/02.jpg" alt="">
               </div>
               <span>David Zon</span>
             </div>
@@ -60,7 +60,7 @@
 
       <div class="news-article">
         <div class="news-img">
-          <img src="" alt="">
+          <img src="../assets/best/01.jpg" alt="">
         </div>
         <div class="news-text">
 
@@ -85,7 +85,7 @@
 
             <div class="author-info">
               <div class="author-img">
-                <img src="" alt="">
+                <img src="../assets/team/02.jpg" alt="">
               </div>
               <span>David Zon</span>
             </div>

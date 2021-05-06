@@ -11,7 +11,7 @@
                 <div class="best-item">
                     <div class="best-img">
                         <span class="label label-new">New</span>
-                        <img src="" alt="" />
+                        <img src="../assets/best/01.jpg" alt="" />
                     </div>
                     <div class="best-text">
                         <img src="../assets/best/icon1.png" alt="" />
@@ -30,7 +30,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="" />
+                                        <img src="../assets/best/01.jpg" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -45,7 +45,7 @@
 
                 <div class="best-item">
                     <div class="best-img">
-                        <img src="" alt="" />
+                        <img src="../assets/best/02.jpg" alt="" />
                     </div>
                     <div class="best-text">
                         <img src="../assets/best/icon2.png" alt="" />
@@ -64,7 +64,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="" />
+                                        <img src="../assets/best/01.jpg" alt="" />
                                     </div>
                                     Somalia
                                 </div>
@@ -80,7 +80,7 @@
                 <div class="best-item">
                     <div class="best-img">
                         <span class="label label-hot">hot</span>
-                        <img src="" alt="" />
+                        <img src="../assets/best/03.jpg" alt="" />
                     </div>
                     <div class="best-text">
                         <img src="../assets/best/icon3.png" alt="" />
@@ -99,7 +99,7 @@
                             <div class="project-info">
                                 <div class="author">
                                     <div class="author-img">
-                                        <img src="" alt="" />
+                                        <img src="../assets/best/01.jpg" alt="" />
                                     </div>
                                     Somalia
                                 </div>

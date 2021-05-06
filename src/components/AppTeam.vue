@@ -9,7 +9,7 @@
             <div class="team-container">
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="" alt="" />
+                        <img src="../assets/team/01.jpg" alt="" />
                         <span class="label-img">
                             <i class="far fa-envelope-open"></i>
                         </span>
@@ -54,7 +54,7 @@
 
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="" alt="" />
+                        <img src="../assets/team/02.jpg" alt="" />
                         <span class="label-img">
                             <i class="far fa-envelope-open"></i>
                         </span>
@@ -99,7 +99,7 @@
 
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="" alt="" />
+                        <img src="../assets/team/03.jpg" alt="" />
                         <span class="label-img">
                             <i class="far fa-envelope-open"></i>
                         </span>
@@ -144,7 +144,7 @@
 
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="" alt="" />
+                        <img src="../assets/team/04.jpg" alt="" />
                         <span class="label-img">
                             <i class="far fa-envelope-open"></i>
                         </span>
@@ -232,7 +232,6 @@ export default {}
 }
 .team-img {
     position: relative;
-    background: var(--text-dark);
     width: 170px;
     height: 170px;
     margin: 0 auto;

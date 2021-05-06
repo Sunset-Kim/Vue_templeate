@@ -13,6 +13,7 @@
 }
 html {
     font-size: 62.5%;
+    overflow-X: hidden;
 }
 body {
     font-size: 1.6rem;
