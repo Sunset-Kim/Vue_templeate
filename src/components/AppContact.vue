@@ -34,12 +34,10 @@ export default {
 }
 .contact-container span {
     font-size: 5.5rem;
-    flex-shrink: 0;
 }
 .contact-container span strong {
     font-weight: 900;
 }
 #app-contact .btn-190 {
-    flex-shrink: 0;
 }
 </style>

@@ -34,6 +34,7 @@ export default {
     data: function(){
         return {
             settings: {
+                "arrows": false,
                 "centerMode": true,
                 "centerPadding": "20px",
                 "focusOnSelect": true,

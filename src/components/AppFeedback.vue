@@ -9,49 +9,54 @@
         <div class="wrap">
             <div class="feedback-container">
                 
-                <div class="feedback-item">
-                    <div class="feedback-img">
-                        <img src="../assets/team/02.jpg" alt="">
-                        <span class="label-img">
-                            <i class="far fa-comment-dots"></i>
-                        </span>
-                    </div>
-                    <div class="feedback-text">
-                        <h4 class="feedback-name">David Michel, <span>CEO & Founder</span></h4>
-                        <p>
-                            But I must explain to you how all this mistake denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of ter-builder
-                        </p>
-                        <div class="feedback-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                <div class="col-lg-6">
+                    <div class="feedback-item">
+                        <div class="feedback-img">
+                            <img src="../assets/team/02.jpg" alt="">
+                            <span class="label-img">
+                                <i class="far fa-comment-dots"></i>
+                            </span>
+                        </div>
+                        <div class="feedback-text">
+                            <h4 class="feedback-name">David Michel, <span>CEO & Founder</span></h4>
+                            <p>
+                                But I must explain to you how all this mistake denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of ter-builder
+                            </p>
+                            <div class="feedback-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="feedback-item">
-                    <div class="feedback-img">
-                        <img src="../assets/team/03.jpg" alt="">
-                        <span class="label-img">
-                            <i class="far fa-comment-dots"></i>
-                        </span>
-                    </div>
-                    <div class="feedback-text">
-                        <h4 class="feedback-name">David Michel, <span>CEO & Founder</span></h4>
-                        <p>
-                            But I must explain to you how all this mistake denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of ter-builder
-                        </p>
-                        <div class="feedback-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                
+                <div class="col-lg-6">
+                    <div class="feedback-item">
+                        <div class="feedback-img">
+                            <img src="../assets/team/03.jpg" alt="">
+                            <span class="label-img">
+                                <i class="far fa-comment-dots"></i>
+                            </span>
                         </div>
-                    </div>
+                        <div class="feedback-text">
+                            <h4 class="feedback-name">David Michel, <span>CEO & Founder</span></h4>
+                            <p>
+                                But I must explain to you how all this mistake denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of ter-builder
+                            </p>
+                            <div class="feedback-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>  
                 </div>
+                
             </div>
         </div>
     </div>
@@ -82,9 +87,7 @@ export default {}
 }
 .feedback-item {
     position: relative;
-    width: 570px;
     padding: 9rem 6rem 5rem 6rem;
-    margin-right: 3rem;
     z-index: 10;
 }
 .feedback-item::before {

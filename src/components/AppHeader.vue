@@ -1,21 +1,22 @@
 <template>
     <div id="app-header">
+
         <div class="header-top">
             <div class="header-wrap">
                 <div class="top-left">
                     <span>
                         <i class="far fa-envelope"></i>
-                        suppoert@gmail.com
+                        <a href="#">suppoert@gmail.com</a>
                     </span>
                     <span>
                         <i class="fas fa-map-marker-alt"></i>
-                        250 Main Street, 2nd Floor, USA
+                        <a href="#">250 Main Street, 2nd Floor, USA</a>
                     </span>
                 </div>
                 <div class="top-right">
                     <span>
                         <i class="fas fa-unlock-alt"></i>
-                        Login Or Sign up
+                        <a href="#">Login Or Sign up</a>
                     </span>
                     <ul class="sns-group">
                         <li>
@@ -67,16 +68,18 @@
                     <img src="../assets/header/slide01.jpg" alt="이미지1" />
                     <div class="header-slide-text">
                         <div class="wrap">
-                            <div class="top-text">Crowd Founding</div>
-                            <div class="bold-text">Change World</div>
-                            <div class="regular-text">Better Future</div>
-                            <div class="btn-group">
-                                <button class="btn-190 btn-secondary btn-main-ef">
-                                    Explore More
-                                </button>
-                                <button class="btn-190 btn-outlined btn-main-ef">
-                                    Donate Now
-                                </button>
+                            <div class="col-lg-6">
+                                <div class="top-text">Crowd Founding</div>
+                                <div class="bold-text">Change World</div>
+                                <div class="regular-text">Better Future</div>
+                                <div class="btn-group">
+                                    <button class="btn-190 btn-secondary btn-main-ef">
+                                        Explore More
+                                    </button>
+                                    <button class="btn-190 btn-outlined btn-main-ef">
+                                        Donate Now
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -86,17 +89,20 @@
                     <img src="../assets/header/slide02.jpg" alt="이미지1" />
                     <div class="header-slide-text">
                         <div class="wrap">
-                            <div class="top-text">Crowd Founding</div>
-                            <div class="bold-text">Change World</div>
-                            <div class="regular-text">Better Future</div>
-                            <div class="btn-group">
-                                <button class="btn-190 btn-secondary btn-main-ef">
-                                    Explore More
-                                </button>
-                                <button class="btn-190 btn-outlined btn-main-ef">
-                                    Donate Now
-                                </button>
+                            <div class="col-lg-6">
+                                <div class="top-text">Crowd Founding</div>
+                                <div class="bold-text">Change World</div>
+                                <div class="regular-text">Better Future</div>
+                                <div class="btn-group">
+                                    <button class="btn-190 btn-secondary btn-main-ef">
+                                        Explore More
+                                    </button>
+                                    <button class="btn-190 btn-outlined btn-main-ef">
+                                        Donate Now
+                                    </button>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -105,17 +111,20 @@
                     <img src="../assets/header/slide03.jpg" alt="이미지1" />
                     <div class="header-slide-text">
                         <div class="wrap">
-                            <div class="top-text">Crowd Founding</div>
-                            <div class="bold-text">Change World</div>
-                            <div class="regular-text">Better Future</div>
-                            <div class="btn-group">
-                                <button class="btn-190 btn-secondary btn-main-ef">
-                                    Explore More
-                                </button>
-                                <button class="btn-190 btn-outlined btn-main-ef">
-                                    Donate Now
-                                </button>
+                            <div class="col-lg-6">
+                                <div class="top-text">Crowd Founding</div>
+                                <div class="bold-text">Change World</div>
+                                <div class="regular-text">Better Future</div>
+                                <div class="btn-group">
+                                    <button class="btn-190 btn-secondary btn-main-ef">
+                                        Explore More
+                                    </button>
+                                    <button class="btn-190 btn-outlined btn-main-ef">
+                                        Donate Now
+                                    </button>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -133,6 +142,7 @@
                 </button>
             </div>
         </div>
+
     </div>
 </template>
 
@@ -187,11 +197,21 @@ export default {
     margin: 0 auto;
     padding: 0 2rem;
 }
+.top-left span {
+    margin-right: 1rem;
+}
+.top-left span:last-child {
+    margin-right: 0;
+}
 .top-left i {
+    margin-right: 1rem;
     color: var(--secondary);
 }
 .top-right {
     display: flex;
+}
+.top-right span i {
+    margin-right: 1rem;
 }
 .top-right i {
     color: var(--secondary);
@@ -246,6 +266,7 @@ export default {
 /* header-slide */
 .header-slide-container {
     position: relative;
+    overflow: hidden;
 }
 .header-slide {
     position: relative;
@@ -333,5 +354,14 @@ export default {
 .btn-pagination:hover {
     background: var(--secondary);
     border-color: var(--secondary);
+}
+
+@media screen and (max-width: 1024px) {
+    .header-top {
+        display: none;
+    }
+    .gnb button {
+        display: none;
+    }
 }
 </style>

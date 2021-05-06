@@ -2,34 +2,46 @@
     <div id="app-count">
         <div class="wrap">
             <div class="count-container">
-                <div class="count-item">
-                    <div class="count-img">
-                        <img src="../assets/count/icon1.png" alt="" />
+                <div class="col-lg-4">
+                    <div class="count-item">
+                        <div class="count-img">
+                            <img src="../assets/count/icon1.png" alt="" />
+                        </div>
+                        <h2>402+</h2>
+                        <span>project Complate</span>
                     </div>
-                    <h2>402+</h2>
-                    <span>project Complate</span>
                 </div>
-                <div class="count-item">
-                    <div class="count-img">
-                        <img src="../assets/count/icon2.png" alt="" />
+                
+                <div class="col-lg-4">
+                    <div class="count-item">
+                        <div class="count-img">
+                            <img src="../assets/count/icon2.png" alt="" />
+                        </div>
+                        <h2>365+</h2>
+                        <span>Global Partner</span>
                     </div>
-                    <h2>365+</h2>
-                    <span>Global Partner</span>
                 </div>
-                <div class="count-item">
-                    <div class="count-img">
-                        <img src="../assets/count/icon3.png" alt="" />
+                
+                <div class="col-lg-4">
+                    <div class="count-item">
+                        <div class="count-img">
+                            <img src="../assets/count/icon3.png" alt="" />
+                        </div>
+                        <h2>753+</h2>
+                        <span>Awards Winning</span>
                     </div>
-                    <h2>753+</h2>
-                    <span>Awards Winning</span>
                 </div>
-                <div class="count-item">
-                    <div class="count-img">
-                        <img src="../assets/count/icon4.png" alt="" />
+                
+                <div class="col-lg-4">
+                    <div class="count-item">
+                        <div class="count-img">
+                            <img src="../assets/count/icon4.png" alt="" />
+                        </div>
+                        <h2>862+</h2>
+                        <span>Active Volunteer</span>
                     </div>
-                    <h2>862+</h2>
-                    <span>Active Volunteer</span>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -51,10 +63,7 @@ export default {}
     justify-content: center;
 }
 .count-item {
-    margin-right: 150px;
-}
-.count-item:last-child {
-    margin-right: 0;
+    text-align: center;
 }
 .count-img {
     margin-bottom: 4rem;

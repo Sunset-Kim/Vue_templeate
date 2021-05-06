@@ -2,55 +2,65 @@
   <div id="app-footer">
       <div class="wrap">
           <nav class="footer-nav">
-              <ul class="list-menu">
-                 <li class="list-title">Quick Links</li> 
-                 <li class="list-link"><a href="/">About us</a></li>
-                 <li class="list-link"><a href="/">Event Details</a></li>
-                 <li class="list-link"><a href="/">Fande Career</a></li>
-                 <li class="list-link"><a href="/">Latest News</a></li>
-                 <li class="list-link"><a href="/">Contact Us</a></li>
-              </ul>
 
-              <ul class="list-menu">
-                 <li class="list-title">Our Project</li> 
-                 <li class="list-link"><a href="/">Education</a></li>
-                 <li class="list-link"><a href="/">Design</a></li>
-                 <li class="list-link"><a href="/">Film & Video</a></li>
-                 <li class="list-link"><a href="/">Technology</a></li>
-                 <li class="list-link"><a href="/">Games</a></li>
-              </ul>
+              <div class="col-lg-2">
+                <ul class="list-menu">
+                    <li class="list-title">Quick Links</li> 
+                    <li class="list-link"><a href="/">About us</a></li>
+                    <li class="list-link"><a href="/">Event Details</a></li>
+                    <li class="list-link"><a href="/">Fande Career</a></li>
+                    <li class="list-link"><a href="/">Latest News</a></li>
+                    <li class="list-link"><a href="/">Contact Us</a></li>
+                </ul>
+              </div>
+              
+              <div class="col-lg-2">
+                    <ul class="list-menu">
+                        <li class="list-title">Our Project</li> 
+                        <li class="list-link"><a href="/">Education</a></li>
+                        <li class="list-link"><a href="/">Design</a></li>
+                        <li class="list-link"><a href="/">Film & Video</a></li>
+                        <li class="list-link"><a href="/">Technology</a></li>
+                        <li class="list-link"><a href="/">Games</a></li>
+                    </ul>
+              </div>
 
-              <ul class="list-info">
-                 <li class="list-title">Contact Info</li> 
-                 <li>Perspi ciatis unde omnis iste nat error sit voluptatem accusan</li>
-                 <li><a href="/">
-                 <i class="fas fa-map-marker-alt"></i>
-                 250 Main Street, 2nd Floor, USA</a></li>
-                 <li><a href="/">
-                 <i class="far fa-envelope"></i>
-                 support@gmail.com</a></li>
-                 <li><a href="/">
-                 <i class="fas fa-headset"></i>
-                 888 (0123) 456 79</a></li>
-              </ul>
-
-              <ul class="list-info">
-                 <li class="list-title">Newsletters</li> 
-                 <li>Sed ut perspi ciatis unde omnis iste 
-natus error sit voluptatem accusantiu doloremque laudantiu totam</li>
-                 <form class="input-box">
-                        <input
-                            type="email"
-                            class="input-email"
-                            placeholder="Enter Your Email"
-                        />
-                        <button type="submit" class="btn-enter">
-                            <i class="fas fa-arrow-right"></i>
-                        </button>
-                    </form>
-              </ul>
+              <div class="col-lg-3">
+                <ul class="list-info">
+                    <li class="list-title">Contact Info</li> 
+                    <li>Perspi ciatis unde omnis iste nat error sit voluptatem accusan</li>
+                    <li><a href="/">
+                    <i class="fas fa-map-marker-alt"></i>
+                    250 Main Street, 2nd Floor, USA</a></li>
+                    <li><a href="/">
+                    <i class="far fa-envelope"></i>
+                    support@gmail.com</a></li>
+                    <li><a href="/">
+                    <i class="fas fa-headset"></i>
+                    888 (0123) 456 79</a></li>
+                </ul>
+              </div>
+              
+              <div class="col-lg-5">
+                  <ul class="list-info">
+                    <li class="list-title">Newsletters</li> 
+                    <li>Sed ut perspi ciatis unde omnis iste 
+    natus error sit voluptatem accusantiu doloremque laudantiu totam</li>
+                    <form class="input-box">
+                            <input
+                                type="email"
+                                class="input-email"
+                                placeholder="Enter Your Email"
+                            />
+                            <button type="submit" class="btn-enter">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                </ul>
+              </div>
 
           </nav>
+
           <div class="footer-copy">
               <div class="logo">
                   <img src="../assets/logo.png" alt="">
@@ -78,15 +88,8 @@ export default {
 }
 .footer-nav {
     display: flex;
-    justify-content: space-between;
     padding-bottom: 6rem;
     border-bottom: 1px solid var(--text-sub);
-}
-.footer-nav .list-menu {
-    flex: 1 0 150px;
-}
-.footer-nav .list-info {
-    flex: 2 0 280px;
 }
 .footer-nav ul li.list-title {
     font-size: 2rem;

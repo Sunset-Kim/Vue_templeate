@@ -7,185 +7,194 @@
         </div>
         <div class="wrap">
             <div class="team-container">
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="../assets/team/01.jpg" alt="" />
-                        <span class="label-img">
-                            <i class="far fa-envelope-open"></i>
-                        </span>
-                    </div>
+                <div class="col-lg-3">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="../assets/team/01.jpg" alt="" />
+                            <span class="label-img">
+                                <i class="far fa-envelope-open"></i>
+                            </span>
+                        </div>
 
-                    <div class="team-info">
-                        <h6>Web Designer</h6>
-                        <h4>David SL Warner</h4>
-                    </div>
+                        <div class="team-info">
+                            <h6>Web Designer</h6>
+                            <h4>David SL Warner</h4>
+                        </div>
 
-                    <div class="btn-plus">
-                        <i class="fas fa-plus"></i>
-                    </div>
+                        <div class="btn-plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
 
-                    <ul class="team-sns-group">
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-youtube"></i>
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-behance"></i>
-                                <i class="fab fa-behance"></i>
-                            </a>
-                        </li>
-                    </ul>
+                        <ul class="team-sns-group">
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-behance"></i>
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                
+                <div class="col-lg-3">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="../assets/team/02.jpg" alt="" />
+                            <span class="label-img">
+                                <i class="far fa-envelope-open"></i>
+                            </span>
+                        </div>
 
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="../assets/team/02.jpg" alt="" />
-                        <span class="label-img">
-                            <i class="far fa-envelope-open"></i>
-                        </span>
+                        <div class="team-info">
+                            <h6>Web Designer</h6>
+                            <h4>David SL Warner</h4>
+                        </div>
+
+                        <div class="btn-plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+
+                        <ul class="team-sns-group">
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-behance"></i>
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-
-                    <div class="team-info">
-                        <h6>Web Designer</h6>
-                        <h4>David SL Warner</h4>
-                    </div>
-
-                    <div class="btn-plus">
-                        <i class="fas fa-plus"></i>
-                    </div>
-
-                    <ul class="team-sns-group">
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-youtube"></i>
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-behance"></i>
-                                <i class="fab fa-behance"></i>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
+                
+                <div class="col-lg-3">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="../assets/team/03.jpg" alt="" />
+                            <span class="label-img">
+                                <i class="far fa-envelope-open"></i>
+                            </span>
+                        </div>
 
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="../assets/team/03.jpg" alt="" />
-                        <span class="label-img">
-                            <i class="far fa-envelope-open"></i>
-                        </span>
+                        <div class="team-info">
+                            <h6>Web Designer</h6>
+                            <h4>David SL Warner</h4>
+                        </div>
+
+                        <div class="btn-plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+
+                        <ul class="team-sns-group">
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-behance"></i>
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-
-                    <div class="team-info">
-                        <h6>Web Designer</h6>
-                        <h4>David SL Warner</h4>
-                    </div>
-
-                    <div class="btn-plus">
-                        <i class="fas fa-plus"></i>
-                    </div>
-
-                    <ul class="team-sns-group">
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-youtube"></i>
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-behance"></i>
-                                <i class="fab fa-behance"></i>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
+                
+                <div class="col-lg-3">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="../assets/team/04.jpg" alt="" />
+                            <span class="label-img">
+                                <i class="far fa-envelope-open"></i>
+                            </span>
+                        </div>
 
-                <div class="team-item">
-                    <div class="team-img">
-                        <img src="../assets/team/04.jpg" alt="" />
-                        <span class="label-img">
-                            <i class="far fa-envelope-open"></i>
-                        </span>
+                        <div class="team-info">
+                            <h6>Web Designer</h6>
+                            <h4>David SL Warner</h4>
+                        </div>
+
+                        <div class="btn-plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+
+                        <ul class="team-sns-group">
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <i class="fab fa-behance"></i>
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-
-                    <div class="team-info">
-                        <h6>Web Designer</h6>
-                        <h4>David SL Warner</h4>
-                    </div>
-
-                    <div class="btn-plus">
-                        <i class="fas fa-plus"></i>
-                    </div>
-
-                    <ul class="team-sns-group">
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-youtube"></i>
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/">
-                                <i class="fab fa-behance"></i>
-                                <i class="fab fa-behance"></i>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -206,7 +215,6 @@ export default {}
 }
 .team-item {
     position: relative;
-    width: 270px;
     padding: 4rem;
     text-align: center;
     border: 1px solid #e9e9e9;

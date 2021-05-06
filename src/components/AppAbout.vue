@@ -5,66 +5,73 @@
             <div class="right"></div>
         </div>
         <div class="wrap">
-            <div class="about-left">
-                <div class="about-img">
-                    <img src="../assets/about/about-main.jpg" alt="aboutimg" />
-                    <div class="text-img">
-                        <img src="../assets/about/text.png" alt="About" />
+            <div class="col-lg-6">
+                <div class="about-left">
+                    <div class="about-img">
+                        <img src="../assets/about/about-main.jpg" alt="aboutimg" />
+                        <div class="text-img">
+                            <img src="../assets/about/text.png" alt="About" />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="about-right">
-                <div class="title-group">
-                    <div class="title-top">Who We Are</div>
-                    <div class="title-main">
-                        We’ve 25+ Years<br />
-                        Of Experienced In
+
+            <div class="col-lg-6">
+                <div class="about-right">
+                    <div class="title-group">
+                        <div class="title-top">Who We Are</div>
+                        <div class="title-main">
+                            We’ve 25+ Years<br />
+                            Of Experienced In
+                        </div>
+                        <div class="title-sub">Crowd Founding</div>
                     </div>
-                    <div class="title-sub">Crowd Founding</div>
+
+                    <div class="about-title-sub">
+                        <span>
+                            <strong>36k</strong>
+                            Our Global Partner
+                        </span>
+                        <button class="btn-160 btn-primary btn-main-ef">
+                            join with us
+                        </button>
+                    </div>
+
+                    <ul class="icon-desc-list">
+                        <li class="icon-desc-item">
+                            <div class="icon-img">
+                                <img src="../assets/about/Icon1.png" alt="" />
+                            </div>
+                            <div class="icon-desc">
+                                <h4>Crowdfounding</h4>
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error
+                                    voluptatem accusantium doloremque
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="icon-desc-item">
+                            <div class="icon-img">
+                                <img src="../assets/about/icon2.png" alt="" />
+                            </div>
+                            <div class="icon-desc">
+                                <h4>Highest Success Rates</h4>
+                                <p>
+                                    Quis autem vel eum iure reprehenderit quin ea
+                                    voluptate velit esse quam nihil molestiae
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a class="btn-190 btn-secondary btn-main-ef" href="/"
+                        >learn more</a
+                    >
                 </div>
-
-                <div class="about-title-sub">
-                    <span>
-                        <strong>36k</strong>
-                        Our Global Partner
-                    </span>
-                    <button class="btn-160 btn-primary btn-main-ef">
-                        join with us
-                    </button>
-                </div>
-
-                <ul class="icon-desc-list">
-                    <li class="icon-desc-item">
-                        <div class="icon-img">
-                            <img src="../assets/about/Icon1.png" alt="" />
-                        </div>
-                        <div class="icon-desc">
-                            <h4>Crowdfounding</h4>
-                            <p>
-                                Sed ut perspiciatis unde omnis iste natus error
-                                voluptatem accusantium doloremque
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="icon-desc-item">
-                        <div class="icon-img">
-                            <img src="../assets/about/icon2.png" alt="" />
-                        </div>
-                        <div class="icon-desc">
-                            <h4>Highest Success Rates</h4>
-                            <p>
-                                Quis autem vel eum iure reprehenderit quin ea
-                                voluptate velit esse quam nihil molestiae
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-
-                <a class="btn-190 btn-secondary btn-main-ef" href="/"
-                    >learn more</a
-                >
             </div>
+            
+            
         </div>
     </div>
 </template>
@@ -96,15 +103,12 @@ export default {}
 }
 #app-about .wrap {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .about-left {
-    width: 50%;
-    align-self: flex-end;
-}
-.about-right {
-    width: 50%;
-    padding-left: 130px;
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
 }
 .about-img {
     position: relative;

@@ -13,7 +13,7 @@
 }
 html {
     font-size: 62.5%;
-    overflow-X: hidden;
+    /* overflow-X: hidden; */
 }
 body {
     font-size: 1.6rem;
@@ -26,4 +26,18 @@ a {
 .wrap {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+
+/* break point */
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    html {
+        font-size: 58.5%;
+    }
 }

@@ -2,103 +2,110 @@
   <div id="app-news">
     <div class="wrap">
       <div class="news-container">
-      <div class="news-intro">
-        <div class="title-group">
-          <div class="title-top">Latest News</div>
-          <div class="title-main">Every Update</div>
-          <div class="title-sub">News & Blog</div>
-        </div>
-        <p>
-          Sedut perspiciatis unde omnis iste natus error 
-          sit voluptatem accse doloremque laudantium 
-          totam rem aperiam eaque ipsa quae abillo
-        </p>
-        <a class="btn-160 btn-primary btn-main-ef" href="/">view all news</a>
-      </div>
-
-      <div class="news-article">
-        <div class="news-img">
-          <img src="../assets/best/02.jpg" alt="">
-        </div>
-        <div class="news-text">
-
-          <span class="label-news">Education</span>
-          
-          <div class="news-info">
-            <span class="date">
-              <i class="far fa-calendar-alt"></i>
-              05 NOV 2020
-            </span>
-            <span class="comment">
-              <i class="far fa-comment"></i>
-              COMMNET (03)
-            </span>
+        <div class="col-lg-4">
+          <div class="news-intro">
+            <div class="title-group">
+              <div class="title-top">Latest News</div>
+              <div class="title-main">Every Update</div>
+              <div class="title-sub">News & Blog</div>
+            </div>
+            <p>
+              Sedut perspiciatis unde omnis iste natus error 
+              sit voluptatem accse doloremque laudantium 
+              totam rem aperiam eaque ipsa quae abillo
+            </p>
+            <a class="btn-160 btn-primary btn-main-ef" href="/">view all news</a>
           </div>
-
-          <div class="news-title">
-            How Make Cross-Browser Testing More Lambda.
+        </div>
+      
+      <div class="col-lg-4">
+        <div class="news-article">
+          <div class="news-img">
+            <img src="../assets/best/02.jpg" alt="">
           </div>
-          
-          <div class="author">
+          <div class="news-text">
 
-            <div class="author-info">
-              <div class="author-img">
-                <img src="../assets/team/02.jpg" alt="">
-              </div>
-              <span>David Zon</span>
+            <span class="label-news">Education</span>
+            
+            <div class="news-info">
+              <span class="date">
+                <i class="far fa-calendar-alt"></i>
+                05 NOV 2020
+              </span>
+              <span class="comment">
+                <i class="far fa-comment"></i>
+                COMMNET (03)
+              </span>
             </div>
 
-            <a class="btn-more" href="/">
-              read more
-              <i class="fas fa-arrow-right"></i>
-            </a>
+            <div class="news-title">
+              How Make Cross-Browser Testing More Lambda.
+            </div>
             
-          </div>
+            <div class="author">
 
-        </div>
-      </div>
-
-      <div class="news-article">
-        <div class="news-img">
-          <img src="../assets/best/01.jpg" alt="">
-        </div>
-        <div class="news-text">
-
-          <span class="label-news">Education</span>
-          
-          <div class="news-info">
-            <span class="date">
-              <i class="far fa-calendar-alt"></i>
-              05 NOV 2020
-            </span>
-            <span class="comment">
-              <i class="far fa-comment"></i>
-              COMMNET (03)
-            </span>
-          </div>
-
-          <div class="news-title">
-            How Make Cross-Browser Testing More Lambda.
-          </div>
-          
-          <div class="author">
-
-            <div class="author-info">
-              <div class="author-img">
-                <img src="../assets/team/02.jpg" alt="">
+              <div class="author-info">
+                <div class="author-img">
+                  <img src="../assets/team/02.jpg" alt="">
+                </div>
+                <span>David Zon</span>
               </div>
-              <span>David Zon</span>
+
+              <a class="btn-more" href="/">
+                read more
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              
             </div>
 
-            <a class="btn-more" href="/">
-              read more
-              <i class="fas fa-arrow-right"></i>
-            </a>
-            
           </div>
-
         </div>
       </div>
+      
+      <div class="col-lg-4">
+        <div class="news-article">
+          <div class="news-img">
+            <img src="../assets/best/01.jpg" alt="">
+          </div>
+          <div class="news-text">
+
+            <span class="label-news">Education</span>
+            
+            <div class="news-info">
+              <span class="date">
+                <i class="far fa-calendar-alt"></i>
+                05 NOV 2020
+              </span>
+              <span class="comment">
+                <i class="far fa-comment"></i>
+                COMMNET (03)
+              </span>
+            </div>
+
+            <div class="news-title">
+              How Make Cross-Browser Testing More Lambda.
+            </div>
+            
+            <div class="author">
+
+              <div class="author-info">
+                <div class="author-img">
+                  <img src="../assets/team/02.jpg" alt="">
+                </div>
+                <span>David Zon</span>
+              </div>
+
+              <a class="btn-more" href="/">
+                read more
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
     </div>
     </div>
     
@@ -121,11 +128,7 @@ export default {
 .news-container {
   display: flex;
 }
-.news-intro {
-  width: 300px;
-  flex-shrink: 0;
-  margin-right: 7rem;
-}
+
 .news-intro .title-group{
   text-align: left;
   margin-bottom: 5rem;
@@ -144,8 +147,6 @@ export default {
 }
 /* news artivle */
 .news-article {
-  width: 37rem;
-  flex-shrink: 0;
   border: 2px solid #eaeaea;
   margin-right: 3rem;
 }

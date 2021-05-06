@@ -8,109 +8,116 @@
 
         <div class="wrap">
             <div class="best-container">
-                <div class="best-item">
-                    <div class="best-img">
-                        <span class="label label-new">New</span>
-                        <img src="../assets/best/01.jpg" alt="" />
-                    </div>
-                    <div class="best-text">
-                        <img src="../assets/best/icon1.png" alt="" />
-                        <h2 class="project-name">
-                            Reference Pico-Neo2<br />
-                            Condition New
-                        </h2>
-                        <div class="project-progress">
-                            <div class="progress-title">
-                                <span> $2535 </span>
-                                <span> 85% </span>
-                            </div>
-                            <div class="progress-bg">
-                                <div class="progress-bar"></div>
-                            </div>
-                            <div class="project-info">
-                                <div class="author">
-                                    <div class="author-img">
-                                        <img src="../assets/best/01.jpg" alt="" />
-                                    </div>
-                                    Somalia
+                <div class="col-lg-4">
+                    <div class="best-item">
+                        <div class="best-img">
+                            <span class="label label-new">New</span>
+                            <img src="../assets/best/01.jpg" alt="" />
+                        </div>
+                        <div class="best-text">
+                            <img src="../assets/best/icon1.png" alt="" />
+                            <h2 class="project-name">
+                                Reference Pico-Neo2<br />
+                                Condition New
+                            </h2>
+                            <div class="project-progress">
+                                <div class="progress-title">
+                                    <span> $2535 </span>
+                                    <span> 85% </span>
                                 </div>
-                                <div class="day">
-                                    <i class="far fa-clock"></i>
-                                    7 Days Left
+                                <div class="progress-bg">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <div class="project-info">
+                                    <div class="author">
+                                        <div class="author-img">
+                                            <img src="../assets/best/01.jpg" alt="" />
+                                        </div>
+                                        Somalia
+                                    </div>
+                                    <div class="day">
+                                        <i class="far fa-clock"></i>
+                                        7 Days Left
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="best-item">
-                    <div class="best-img">
-                        <img src="../assets/best/02.jpg" alt="" />
-                    </div>
-                    <div class="best-text">
-                        <img src="../assets/best/icon2.png" alt="" />
-                        <h2 class="project-name">
-                            Reference Pico-Neo2<br />
-                            Condition New
-                        </h2>
-                        <div class="project-progress">
-                            <div class="progress-title">
-                                <span> $2535 </span>
-                                <span> 85% </span>
-                            </div>
-                            <div class="progress-bg">
-                                <div class="progress-bar"></div>
-                            </div>
-                            <div class="project-info">
-                                <div class="author">
-                                    <div class="author-img">
-                                        <img src="../assets/best/01.jpg" alt="" />
-                                    </div>
-                                    Somalia
+                
+                <div class="col-lg-4">
+                    <div class="best-item">
+                        <div class="best-img">
+                            <img src="../assets/best/02.jpg" alt="" />
+                        </div>
+                        <div class="best-text">
+                            <img src="../assets/best/icon2.png" alt="" />
+                            <h2 class="project-name">
+                                Reference Pico-Neo2<br />
+                                Condition New
+                            </h2>
+                            <div class="project-progress">
+                                <div class="progress-title">
+                                    <span> $2535 </span>
+                                    <span> 85% </span>
                                 </div>
-                                <div class="day">
-                                    <i class="far fa-clock"></i>
-                                    7 Days Left
+                                <div class="progress-bg">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <div class="project-info">
+                                    <div class="author">
+                                        <div class="author-img">
+                                            <img src="../assets/best/01.jpg" alt="" />
+                                        </div>
+                                        Somalia
+                                    </div>
+                                    <div class="day">
+                                        <i class="far fa-clock"></i>
+                                        7 Days Left
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="best-item">
-                    <div class="best-img">
-                        <span class="label label-hot">hot</span>
-                        <img src="../assets/best/03.jpg" alt="" />
-                    </div>
-                    <div class="best-text">
-                        <img src="../assets/best/icon3.png" alt="" />
-                        <h2 class="project-name">
-                            Reference Pico-Neo2<br />
-                            Condition New
-                        </h2>
-                        <div class="project-progress">
-                            <div class="progress-title">
-                                <span> $2535 </span>
-                                <span> 85% </span>
-                            </div>
-                            <div class="progress-bg">
-                                <div class="progress-bar"></div>
-                            </div>
-                            <div class="project-info">
-                                <div class="author">
-                                    <div class="author-img">
-                                        <img src="../assets/best/01.jpg" alt="" />
-                                    </div>
-                                    Somalia
+                
+                <div class="col-lg-4">
+                    <div class="best-item">
+                        <div class="best-img">
+                            <span class="label label-hot">hot</span>
+                            <img src="../assets/best/03.jpg" alt="" />
+                        </div>
+                        <div class="best-text">
+                            <img src="../assets/best/icon3.png" alt="" />
+                            <h2 class="project-name">
+                                Reference Pico-Neo2<br />
+                                Condition New
+                            </h2>
+                            <div class="project-progress">
+                                <div class="progress-title">
+                                    <span> $2535 </span>
+                                    <span> 85% </span>
                                 </div>
-                                <div class="day">
-                                    <i class="far fa-clock"></i>
-                                    7 Days Left
+                                <div class="progress-bg">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <div class="project-info">
+                                    <div class="author">
+                                        <div class="author-img">
+                                            <img src="../assets/best/01.jpg" alt="" />
+                                        </div>
+                                        Somalia
+                                    </div>
+                                    <div class="day">
+                                        <i class="far fa-clock"></i>
+                                        7 Days Left
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -129,10 +136,6 @@ export default {}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.best-item {
-    width: 33rem;
-    margin-right: 3rem;
 }
 .best-item:hover img {
     transform: scale(1.1);

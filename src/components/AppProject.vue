@@ -8,7 +8,8 @@
 
         <div class="project-container">
             <div class="wrap">
-                <div class="project-item">
+                <div class="col-lg-6">
+                    <div class="project-item">
                     <div class="project-img">
                         <img src="../assets/project/01.jpg" alt="프로젝트이미지" />
                     </div>
@@ -40,8 +41,10 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="project-item">
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="project-item">
                     <div class="project-img">
                         <img src="../assets/project/02.jpg" alt="프로젝트이미지2" />
                     </div>
@@ -73,8 +76,10 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="project-item">
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="project-item">
                     <div class="project-img">
                         <img src="../assets/project/03.jpg" alt="프로젝트이미지3" />
                     </div>
@@ -106,8 +111,10 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="project-item">
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="project-item">
                     <div class="project-img">
                         <img src="../assets/project/04.jpg" alt="프로젝트이미지4" />
                     </div>
@@ -139,6 +146,8 @@
                         </div>
                     </div>
                 </div>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -156,12 +165,10 @@ export default {}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 2rem;
 }
 .project-item {
     display: flex;
-    width: 550px;
-    height: 270px;
+    width: 100%;
     margin-bottom: 3rem;
 }
 .project-item:hover .project-name {

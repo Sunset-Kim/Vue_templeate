@@ -3,6 +3,7 @@ import App from './App.vue'
 import 'reset.css'
 import './css/custom_reset.css'
 import './css/modules.css'
+import './css/grid.css'
 
 Vue.config.productionTip = false
 
