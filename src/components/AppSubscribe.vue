@@ -16,6 +16,7 @@
                             <input
                                 type="email"
                                 id="input-email"
+                                class="input-email"
                                 placeholder="Enter Your Email"
                             />
                             <button type="submit" class="btn-enter">
@@ -66,10 +67,10 @@ export default {}
     font-size: 1.8rem;
     margin-bottom: 2.5rem;
 }
-.input-group .input-box {
+.input-box {
     position: relative;
 }
-#input-email {
+.input-email {
     width: 50rem;
     height: 8rem;
     line-height: 8rem;
@@ -79,11 +80,11 @@ export default {}
     font-weight: bold;
     outline: none;
 }
-#input-email::placeholder {
+.input-email::placeholder {
     opacity: 1;
     transition: 0.3s ease-in-out;
 }
-#input-email:focus::placeholder {
+.input-email:focus::placeholder {
     opacity: 0;
 }
 .btn-enter {

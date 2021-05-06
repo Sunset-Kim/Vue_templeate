@@ -13,6 +13,7 @@
         <app-logoslide></app-logoslide>
         <app-news></app-news>
         <app-contact></app-contact>
+        <app-footer></app-footer>
     </div>
 </template>
 
@@ -30,6 +31,7 @@ import AppFeedback from './components/AppFeedback'
 import AppLogoslide from './components/AppLogoslide'
 import AppNews from './components/AppNews'
 import AppContact from './components/AppContact'
+import AppFooter from './components/AppFooter'
 
 export default {
     name: 'App',
@@ -47,7 +49,7 @@ export default {
         AppLogoslide,
         AppNews,
         AppContact,
-
+        AppFooter
     },
 }
 </script>
