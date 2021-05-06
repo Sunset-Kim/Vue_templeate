@@ -12,6 +12,7 @@
         <app-feedback></app-feedback>
         <app-logoslide></app-logoslide>
         <app-news></app-news>
+        <app-contact></app-contact>
     </div>
 </template>
 
@@ -28,6 +29,7 @@ import AppCount from './components/AppCount'
 import AppFeedback from './components/AppFeedback'
 import AppLogoslide from './components/AppLogoslide'
 import AppNews from './components/AppNews'
+import AppContact from './components/AppContact'
 
 export default {
     name: 'App',
@@ -43,7 +45,9 @@ export default {
         AppCount,
         AppFeedback,
         AppLogoslide,
-        AppNews
+        AppNews,
+        AppContact,
+
     },
 }
 </script>
