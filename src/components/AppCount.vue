@@ -1,7 +1,8 @@
 <template>
     <div id="app-count">
+        <div class="wrap">
             <div class="count-container">
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="count-item">
                         <div class="count-img">
                             <img src="../assets/count/icon1.png" alt="" />
@@ -10,8 +11,8 @@
                         <span>project Complate</span>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="count-item">
                         <div class="count-img">
                             <img src="../assets/count/icon2.png" alt="" />
@@ -20,8 +21,8 @@
                         <span>Global Partner</span>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="count-item">
                         <div class="count-img">
                             <img src="../assets/count/icon3.png" alt="" />
@@ -30,8 +31,8 @@
                         <span>Awards Winning</span>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6 col-sm-6">
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="count-item">
                         <div class="count-img">
                             <img src="../assets/count/icon4.png" alt="" />
@@ -40,9 +41,9 @@
                         <span>Active Volunteer</span>
                     </div>
                 </div>
-                
             </div>
         </div>
+    </div>
 </template>
 
 <script>
@@ -58,9 +59,10 @@ export default {}
 }
 .count-container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 .count-item {
+    margin-bottom: 4rem;
     text-align: center;
 }
 .count-img {

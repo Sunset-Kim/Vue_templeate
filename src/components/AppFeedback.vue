@@ -8,19 +8,24 @@
 
         <div class="wrap">
             <div class="feedback-container">
-                
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6">
                     <div class="feedback-item">
                         <div class="feedback-img">
-                            <img src="../assets/team/02.jpg" alt="">
+                            <img src="../assets/team/02.jpg" alt="" />
                             <span class="label-img">
                                 <i class="far fa-comment-dots"></i>
                             </span>
                         </div>
                         <div class="feedback-text">
-                            <h4 class="feedback-name">David Michel, <span>CEO & Founder</span></h4>
+                            <h4 class="feedback-name">
+                                David Michel, <span>CEO & Founder</span>
+                            </h4>
                             <p>
-                                But I must explain to you how all this mistake denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of ter-builder
+                                But I must explain to you how all this mistake
+                                denouncing pleasure and praising pain was born
+                                and I will give you a complete account of the
+                                system, and expound the actual teachings of the
+                                great explorer of ter-builder
                             </p>
                             <div class="feedback-rating">
                                 <i class="fas fa-star"></i>
@@ -32,19 +37,25 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-6">
+
+                <div class="col-lg-6 col-sm-6">
                     <div class="feedback-item">
                         <div class="feedback-img">
-                            <img src="../assets/team/03.jpg" alt="">
+                            <img src="../assets/team/03.jpg" alt="" />
                             <span class="label-img">
                                 <i class="far fa-comment-dots"></i>
                             </span>
                         </div>
                         <div class="feedback-text">
-                            <h4 class="feedback-name">David Michel, <span>CEO & Founder</span></h4>
+                            <h4 class="feedback-name">
+                                David Michel, <span>CEO & Founder</span>
+                            </h4>
                             <p>
-                                But I must explain to you how all this mistake denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of ter-builder
+                                But I must explain to you how all this mistake
+                                denouncing pleasure and praising pain was born
+                                and I will give you a complete account of the
+                                system, and expound the actual teachings of the
+                                great explorer of ter-builder
                             </p>
                             <div class="feedback-rating">
                                 <i class="fas fa-star"></i>
@@ -54,9 +65,8 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -67,7 +77,7 @@ export default {}
 </script>
 
 <style>
-#app-feedback { 
+#app-feedback {
     padding: 13rem 0;
     background: var(--primary) url('../assets/about/Bg-pattern.png');
 }
@@ -88,6 +98,7 @@ export default {}
 .feedback-item {
     position: relative;
     padding: 9rem 6rem 5rem 6rem;
+    margin-bottom: 4rem;
     z-index: 10;
 }
 .feedback-item::before {
@@ -143,13 +154,13 @@ export default {}
     font-size: 1.5rem;
     line-height: 2.8rem;
     color: var(--text-sub);
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
 }
 .feedback-rating {
     color: var(--secondary);
 }
 .feedback-rating i {
-    padding-right: .5rem;
+    padding-right: 0.5rem;
 }
 .feedback-rating i:last-child {
     padding-right: 0;

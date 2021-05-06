@@ -31,7 +31,10 @@
                                 <div class="project-info">
                                     <div class="author">
                                         <div class="author-img">
-                                            <img src="../assets/best/01.jpg" alt="" />
+                                            <img
+                                                src="../assets/best/01.jpg"
+                                                alt=""
+                                            />
                                         </div>
                                         Somalia
                                     </div>
@@ -44,7 +47,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="best-item">
                         <div class="best-img">
@@ -67,7 +70,10 @@
                                 <div class="project-info">
                                     <div class="author">
                                         <div class="author-img">
-                                            <img src="../assets/best/01.jpg" alt="" />
+                                            <img
+                                                src="../assets/best/01.jpg"
+                                                alt=""
+                                            />
                                         </div>
                                         Somalia
                                     </div>
@@ -80,7 +86,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="best-item">
                         <div class="best-img">
@@ -104,7 +110,10 @@
                                 <div class="project-info">
                                     <div class="author">
                                         <div class="author-img">
-                                            <img src="../assets/best/01.jpg" alt="" />
+                                            <img
+                                                src="../assets/best/01.jpg"
+                                                alt=""
+                                            />
                                         </div>
                                         Somalia
                                     </div>
@@ -117,7 +126,6 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -135,10 +143,9 @@ export default {}
 .best-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .best-item {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 .best-item:hover img {
     transform: scale(1.1);
