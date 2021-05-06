@@ -8,7 +8,10 @@
             <div class="col-lg-6 col-md-12">
                 <div class="about-left">
                     <div class="about-img">
-                        <img src="../assets/about/about-main.jpg" alt="aboutimg" />
+                        <img
+                            src="../assets/about/about-main.jpg"
+                            alt="aboutimg"
+                        />
                         <div class="text-img">
                             <img src="../assets/about/text.png" alt="About" />
                         </div>
@@ -45,8 +48,8 @@
                             <div class="icon-desc">
                                 <h4>Crowdfounding</h4>
                                 <p>
-                                    Sed ut perspiciatis unde omnis iste natus error
-                                    voluptatem accusantium doloremque
+                                    Sed ut perspiciatis unde omnis iste natus
+                                    error voluptatem accusantium doloremque
                                 </p>
                             </div>
                         </li>
@@ -58,8 +61,8 @@
                             <div class="icon-desc">
                                 <h4>Highest Success Rates</h4>
                                 <p>
-                                    Quis autem vel eum iure reprehenderit quin ea
-                                    voluptate velit esse quam nihil molestiae
+                                    Quis autem vel eum iure reprehenderit quin
+                                    ea voluptate velit esse quam nihil molestiae
                                 </p>
                             </div>
                         </li>
@@ -70,8 +73,6 @@
                     >
                 </div>
             </div>
-            
-            
         </div>
     </div>
 </template>
@@ -152,6 +153,7 @@ export default {}
 .about-title-sub span {
     letter-spacing: -0.005em;
     font-size: 2.4rem;
+    line-height: 3rem;
     font-weight: bold;
 }
 .about-title-sub strong {
@@ -192,6 +194,9 @@ export default {}
 }
 @media screen and (max-width: 786px) {
     .about-title-sub {
+        display: block;
+    }
+    .about-title-sub span {
         display: block;
     }
     .about-title-sub button {

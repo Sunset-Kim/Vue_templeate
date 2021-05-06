@@ -1,6 +1,5 @@
 <template>
     <div id="app-header">
-
         <div class="header-top">
             <div class="header-wrap">
                 <div class="top-left">
@@ -46,6 +45,7 @@
                         <img src="../assets/logo.png" alt="로고" />
                     </a>
                 </div>
+
                 <ul class="depth1-menu">
                     <li><a href="#none">Header</a></li>
                     <li><a href="#none">Project</a></li>
@@ -54,29 +54,36 @@
                     <li><a href="#none">Pages</a></li>
                     <li><a href="#none">Contact</a></li>
                 </ul>
+
                 <button class="btn-190 btn-secondary btn-main-ef">
                     get a quote
+                </button>
+                <!-- sidebar 호출 -->
+                <button v-on:click="toggleSide()" class="btn-trigger">
+                    <i class="fas fa-bars"></i>
                 </button>
             </div>
         </nav>
 
         <div class="header-slide-container">
-
             <VueSlickCarousel ref="carousel" v-bind="slickOpt">
-
                 <div class="header-slide">
                     <img src="../assets/header/slide01.jpg" alt="이미지1" />
                     <div class="header-slide-text">
                         <div class="wrap">
-                            <div class="col-lg-8">
+                            <div class="col-lg-8 col-sm-6">
                                 <div class="top-text">Crowd Founding</div>
                                 <div class="bold-text">Change World</div>
                                 <div class="regular-text">Better Future</div>
                                 <div class="btn-group">
-                                    <button class="btn-190 btn-secondary btn-main-ef">
+                                    <button
+                                        class="btn-190 btn-secondary btn-main-ef"
+                                    >
                                         Explore More
                                     </button>
-                                    <button class="btn-190 btn-outlined btn-main-ef">
+                                    <button
+                                        class="btn-190 btn-outlined btn-main-ef"
+                                    >
                                         Donate Now
                                     </button>
                                 </div>
@@ -89,20 +96,23 @@
                     <img src="../assets/header/slide02.jpg" alt="이미지1" />
                     <div class="header-slide-text">
                         <div class="wrap">
-                            <div class="col-lg-8">
+                            <div class="col-lg-8 col-sm-6">
                                 <div class="top-text">Crowd Founding</div>
                                 <div class="bold-text">Change World</div>
                                 <div class="regular-text">Better Future</div>
                                 <div class="btn-group">
-                                    <button class="btn-190 btn-secondary btn-main-ef">
+                                    <button
+                                        class="btn-190 btn-secondary btn-main-ef"
+                                    >
                                         Explore More
                                     </button>
-                                    <button class="btn-190 btn-outlined btn-main-ef">
+                                    <button
+                                        class="btn-190 btn-outlined btn-main-ef"
+                                    >
                                         Donate Now
                                     </button>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -111,71 +121,84 @@
                     <img src="../assets/header/slide03.jpg" alt="이미지1" />
                     <div class="header-slide-text">
                         <div class="wrap">
-                            <div class="col-lg-8">
+                            <div class="col-lg-8 col-sm-6">
                                 <div class="top-text">Crowd Founding</div>
                                 <div class="bold-text">Change World</div>
                                 <div class="regular-text">Better Future</div>
                                 <div class="btn-group">
-                                    <button class="btn-190 btn-secondary btn-main-ef">
+                                    <button
+                                        class="btn-190 btn-secondary btn-main-ef"
+                                    >
                                         Explore More
                                     </button>
-                                    <button class="btn-190 btn-outlined btn-main-ef">
+                                    <button
+                                        class="btn-190 btn-outlined btn-main-ef"
+                                    >
                                         Donate Now
                                     </button>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
-               
-                
             </VueSlickCarousel>
 
-            
             <div class="header-pagination">
                 <button @click="showPrev" class="btn-prev btn-pagination">
                     <i class="fas fa-chevron-left"></i>
                 </button>
-                <button  @click="showNext" class="btn-next btn-pagination">
+                <button @click="showNext" class="btn-next btn-pagination">
                     <i class="fas fa-chevron-right"></i>
                 </button>
             </div>
         </div>
 
+        <transition name="fade">
+            <app-sidebar
+                v-if="sidebar"
+                v-on:close="sidebar = false"
+            ></app-sidebar>
+        </transition>
     </div>
 </template>
 
 <script>
+// slide
 import VueSlickCarousel from 'vue-slick-carousel'
-  // optional style for arrows & dots
+// side bar
+import AppSidebar from './AppSidebar'
 
 export default {
     data() {
-        return{
+        return {
             slickOpt: {
-                "dots": false,
-                "fade": true,
-                "infinite": true,
-                "speed": 500,
-                "autoplay": true,
-                "autoplaySpeed": 2000,
-                "slidesToShow": 1,
-                "slidesToScroll": 1
+                dots: false,
+                fade: true,
+                infinite: true,
+                speed: 500,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToShow: 1,
+                slidesToScroll: 1,
             },
+            sidebar: false,
         }
     },
     methods: {
         showNext() {
-            this.$refs.carousel.next();
+            this.$refs.carousel.next()
         },
         showPrev() {
-            this.$refs.carousel.prev();
-        }
+            this.$refs.carousel.prev()
+        },
+        toggleSide() {
+            this.sidebar = !this.sidebar
+        },
     },
     components: {
         VueSlickCarousel,
-    }
+        AppSidebar,
+    },
 }
 </script>
 
@@ -192,6 +215,7 @@ export default {
 }
 .header-wrap {
     display: flex;
+    height: 90px;
     justify-content: space-between;
     max-width: 1420px;
     margin: 0 auto;
@@ -270,7 +294,10 @@ export default {
 }
 .header-slide {
     position: relative;
+    width: 100%;
+    height: 100%;
     max-height: 880px;
+    min-height: 500px;
     overflow: hidden;
 }
 .header-slide::before {
@@ -288,8 +315,9 @@ export default {
     display: block;
     object-fit: cover;
     object-position: center;
+    height: 100%;
     width: 100%;
-    max-height: 880px;
+    min-height: 800px;
     filter: grayscale(1);
 }
 .header-slide-text {
@@ -355,12 +383,18 @@ export default {
     background: var(--secondary);
     border-color: var(--secondary);
 }
+.btn-trigger {
+    display: none;
+    position: relative;
+    color: var(--primary);
+    font-size: 3rem;
+}
 
 @media screen and (max-width: 1024px) {
     .header-top {
         display: none;
     }
-    .gnb button {
+    .gnb .btn-190 {
         display: none;
     }
     .header-slide-text .top-text {
@@ -381,7 +415,7 @@ export default {
     .header-top {
         display: none;
     }
-    .gnb button {
+    .gnb .btn-190 {
         display: none;
     }
     .header-slide-text .top-text {
@@ -395,5 +429,23 @@ export default {
     .header-slide-text .regular-text {
         font-size: 3.6rem;
     }
+    .depth1-menu {
+        display: none;
+    }
+    .btn-group .btn-190 {
+        margin-bottom: 2rem;
+    }
+    .btn-trigger {
+        display: block;
+    }
+}
+
+/* transition */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
 }
 </style>

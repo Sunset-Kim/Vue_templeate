@@ -114,11 +114,14 @@ export default {}
     }
 }
 @media screen and (max-width: 610px) {
+    .subscribe-box {
+        padding: 3rem;
+    }
     .input-box {
         width: 100%;
     }
     .input-email {
-        width: 100%
+        width: 100%;
     }
 }
 </style>

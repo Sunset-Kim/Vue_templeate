@@ -245,4 +245,10 @@ export default {}
 .news-article:hover .btn-more::before {
     background: var(--primary);
 }
+
+@media screen and (max-width: 786px) {
+    .news-text {
+        padding: 3rem 2rem;
+    }
+}
 </style>

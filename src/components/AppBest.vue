@@ -198,4 +198,11 @@ export default {}
     right: 4rem;
     transition: 0.3s ease-in-out;
 }
+@media screen and (max-width: 786px) {
+    .best-text {
+        position: relative;
+        padding: 2rem;
+        background: white;
+    }
+}
 </style>

@@ -36,7 +36,13 @@ export default {}
 #app-subbanner .title-top::after {
     background: var(--secondary);
 }
-#app-subbanner .btn-group a:first-child {
-    margin-right: 1rem;
+#app-subbanner .btn-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#app-subbanner .btn-group a {
+    margin: 0 1rem;
+    margin-bottom: 2rem;
 }
 </style>
