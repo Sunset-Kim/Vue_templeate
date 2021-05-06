@@ -9,6 +9,7 @@
         <app-subscribe></app-subscribe>
         <app-team></app-team>
         <app-count></app-count>
+        <app-feedback></app-feedback>
     </div>
 </template>
 
@@ -22,6 +23,7 @@ import AppBest from './components/AppBest'
 import AppSubscribe from './components/AppSubscribe'
 import AppTeam from './components/AppTeam'
 import AppCount from './components/AppCount'
+import AppFeedback from './components/AppFeedback'
 
 export default {
     name: 'App',
@@ -35,6 +37,7 @@ export default {
         AppSubscribe,
         AppTeam,
         AppCount,
+        AppFeedback,
     },
 }
 </script>

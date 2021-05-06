@@ -10,7 +10,7 @@
                 <div class="team-item">
                     <div class="team-img">
                         <img src="" alt="" />
-                        <span class="label-mail">
+                        <span class="label-img">
                             <i class="far fa-envelope-open"></i>
                         </span>
                     </div>
@@ -55,7 +55,7 @@
                 <div class="team-item">
                     <div class="team-img">
                         <img src="" alt="" />
-                        <span class="label-mail">
+                        <span class="label-img">
                             <i class="far fa-envelope-open"></i>
                         </span>
                     </div>
@@ -100,7 +100,7 @@
                 <div class="team-item">
                     <div class="team-img">
                         <img src="" alt="" />
-                        <span class="label-mail">
+                        <span class="label-img">
                             <i class="far fa-envelope-open"></i>
                         </span>
                     </div>
@@ -145,7 +145,7 @@
                 <div class="team-item">
                     <div class="team-img">
                         <img src="" alt="" />
-                        <span class="label-mail">
+                        <span class="label-img">
                             <i class="far fa-envelope-open"></i>
                         </span>
                     </div>
@@ -247,7 +247,7 @@ export default {}
     border-radius: 50%;
     object-fit: cover;
 }
-.label-mail {
+.label-img {
     position: absolute;
     display: inline-flex;
     justify-content: center;

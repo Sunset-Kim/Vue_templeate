@@ -42,7 +42,7 @@
             <div class="header-wrap">
                 <div class="logo">
                     <a href="#">
-                        <img src="../assets/Logo.png" alt="로고" />
+                        <img src="../assets/logo.png" alt="로고" />
                     </a>
                 </div>
                 <ul class="depth1-menu">
