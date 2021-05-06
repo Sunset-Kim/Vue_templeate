@@ -60,29 +60,75 @@
         </nav>
 
         <div class="header-slide-container">
-            <div class="header-slide">
-                <img src="../assets/header/slide01.jpg" alt="이미지1" />
-                <div class="header-slide-text">
-                    <div class="wrap">
-                        <div class="top-text">Crowd Founding</div>
-                        <div class="bold-text">Change World</div>
-                        <div class="regular-text">Better Future</div>
-                        <div class="btn-group">
-                            <button class="btn-190 btn-secondary btn-main-ef">
-                                Explore More
-                            </button>
-                            <button class="btn-190 btn-outlined btn-main-ef">
-                                Donate Now
-                            </button>
+
+            <VueSlickCarousel ref="carousel" v-bind="slickOpt">
+
+                <div class="header-slide">
+                    <img src="../assets/header/slide01.jpg" alt="이미지1" />
+                    <div class="header-slide-text">
+                        <div class="wrap">
+                            <div class="top-text">Crowd Founding</div>
+                            <div class="bold-text">Change World</div>
+                            <div class="regular-text">Better Future</div>
+                            <div class="btn-group">
+                                <button class="btn-190 btn-secondary btn-main-ef">
+                                    Explore More
+                                </button>
+                                <button class="btn-190 btn-outlined btn-main-ef">
+                                    Donate Now
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="header-slide">
+                    <img src="../assets/header/slide02.jpg" alt="이미지1" />
+                    <div class="header-slide-text">
+                        <div class="wrap">
+                            <div class="top-text">Crowd Founding</div>
+                            <div class="bold-text">Change World</div>
+                            <div class="regular-text">Better Future</div>
+                            <div class="btn-group">
+                                <button class="btn-190 btn-secondary btn-main-ef">
+                                    Explore More
+                                </button>
+                                <button class="btn-190 btn-outlined btn-main-ef">
+                                    Donate Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-slide">
+                    <img src="../assets/header/slide03.jpg" alt="이미지1" />
+                    <div class="header-slide-text">
+                        <div class="wrap">
+                            <div class="top-text">Crowd Founding</div>
+                            <div class="bold-text">Change World</div>
+                            <div class="regular-text">Better Future</div>
+                            <div class="btn-group">
+                                <button class="btn-190 btn-secondary btn-main-ef">
+                                    Explore More
+                                </button>
+                                <button class="btn-190 btn-outlined btn-main-ef">
+                                    Donate Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                
+            </VueSlickCarousel>
+
+            
             <div class="header-pagination">
-                <button class="btn-prev btn-pagination">
+                <button @click="showPrev" class="btn-prev btn-pagination">
                     <i class="fas fa-chevron-left"></i>
                 </button>
-                <button class="btn-next btn-pagination">
+                <button  @click="showNext" class="btn-next btn-pagination">
                     <i class="fas fa-chevron-right"></i>
                 </button>
             </div>
@@ -91,7 +137,36 @@
 </template>
 
 <script>
-export default {}
+import VueSlickCarousel from 'vue-slick-carousel'
+  // optional style for arrows & dots
+
+export default {
+    data() {
+        return{
+            slickOpt: {
+                "dots": false,
+                "fade": true,
+                "infinite": true,
+                "speed": 500,
+                "autoplay": true,
+                "autoplaySpeed": 2000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1
+            },
+        }
+    },
+    methods: {
+        showNext() {
+            this.$refs.carousel.next();
+        },
+        showPrev() {
+            this.$refs.carousel.prev();
+        }
+    },
+    components: {
+        VueSlickCarousel,
+    }
+}
 </script>
 
 <style>
