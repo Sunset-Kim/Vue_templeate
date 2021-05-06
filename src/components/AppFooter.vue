@@ -2,25 +2,25 @@
   <div id="app-footer">
       <div class="wrap">
           <nav class="footer-nav">
-              <ul>
+              <ul class="list-menu">
                  <li class="list-title">Quick Links</li> 
-                 <li><a href="/">About us</a></li>
-                 <li><a href="/">Event Details</a></li>
-                 <li><a href="/">Fande Career</a></li>
-                 <li><a href="/">Latest News</a></li>
-                 <li><a href="/">Contact Us</a></li>
+                 <li class="list-link"><a href="/">About us</a></li>
+                 <li class="list-link"><a href="/">Event Details</a></li>
+                 <li class="list-link"><a href="/">Fande Career</a></li>
+                 <li class="list-link"><a href="/">Latest News</a></li>
+                 <li class="list-link"><a href="/">Contact Us</a></li>
               </ul>
 
-              <ul>
+              <ul class="list-menu">
                  <li class="list-title">Our Project</li> 
-                 <li><a href="/">Education</a></li>
-                 <li><a href="/">Design</a></li>
-                 <li><a href="/">Film & Video</a></li>
-                 <li><a href="/">Technology</a></li>
-                 <li><a href="/">Games</a></li>
+                 <li class="list-link"><a href="/">Education</a></li>
+                 <li class="list-link"><a href="/">Design</a></li>
+                 <li class="list-link"><a href="/">Film & Video</a></li>
+                 <li class="list-link"><a href="/">Technology</a></li>
+                 <li class="list-link"><a href="/">Games</a></li>
               </ul>
 
-              <ul>
+              <ul class="list-info">
                  <li class="list-title">Contact Info</li> 
                  <li>Perspi ciatis unde omnis iste nat error sit voluptatem accusan</li>
                  <li><a href="/">
@@ -34,11 +34,11 @@
                  888 (0123) 456 79</a></li>
               </ul>
 
-              <ul>
+              <ul class="list-info">
                  <li class="list-title">Newsletters</li> 
                  <li>Sed ut perspi ciatis unde omnis iste 
 natus error sit voluptatem accusantiu doloremque laudantiu totam</li>
-                 <div class="input-box">
+                 <form class="input-box">
                         <input
                             type="email"
                             class="input-email"
@@ -47,10 +47,19 @@ natus error sit voluptatem accusantiu doloremque laudantiu totam</li>
                         <button type="submit" class="btn-enter">
                             <i class="fas fa-arrow-right"></i>
                         </button>
-                    </div>
+                    </form>
               </ul>
 
           </nav>
+          <div class="footer-copy">
+              <div class="logo">
+                  <img src="../assets/logo.png" alt="">
+              </div>
+              <span>
+                  © 2020 Given. All Rights Reserved
+              </span>
+          </div>
+          
       </div>
   </div>
 </template>
@@ -62,5 +71,78 @@ export default {
 </script>
 
 <style>
-
+#app-footer {
+    padding-top: 8rem;
+    background: var(--text-dark);
+    color: var(--text-sub);
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+    border-bottom: 1px solid var(--text-sub);
+}
+.footer-nav .list-menu {
+    flex: 1 0 150px;
+}
+.footer-nav .list-info {
+    flex: 2 0 280px;
+}
+.footer-nav ul li.list-title {
+    font-size: 2rem;
+    color: var(--text-light);
+    margin-bottom: 3.5rem;
+}
+.footer-nav ul li {
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    transition: 0.3s ease-in-out;
+}
+.footer-nav ul li.list-link:hover {
+    color: var(--secondary);
+    padding-left: 1.5rem;
+}
+.footer-nav ul li.list-link::before{
+    content: '\f054';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+.footer-nav ul li:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+.list-info li a i{
+    color: var(--secondary);
+    padding-right: 0.5rem;
+}
+.list-info .input-box {
+    width: fit-content;
+    margin-top: 4rem;
+}
+.list-info .input-box .input-email {
+    width: 28rem;
+    height: 5.5rem;
+}
+.list-info .input-box .btn-enter {
+    width: 35px;
+    height: 35px;
+    right: 1rem;
+}
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.footer-copy * {
+    flex-shrink: 0;
+}
 </style>

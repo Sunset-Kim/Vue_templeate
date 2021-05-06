@@ -93,6 +93,7 @@ button {
 }
 .btn-outlined:hover {
     color: var(--text-dark);
+    border-color: transparent;
 }
 .btn-outlined::before {
     background: var(--secondary);
