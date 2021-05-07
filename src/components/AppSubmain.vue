@@ -4,8 +4,11 @@
           <slot></slot>
       </div>
       <div class="submain-text">
-          <slot name="title">About Us</slot>
-          <slot name="subtitle">Home > <span>About Us</span></slot>
+        <div class="wrap">
+            <slot name="title">About Us</slot>
+            <slot name="subtitle">Home > <span>About Us</span></slot>
+        </div>
+
       </div>
   </div>
 </template>
@@ -66,12 +69,13 @@ export default {
     z-index: 99;
 }
 .submain-text h1 {
-    font-size: 8.5rem;
-    line-height: 9rem;
+    font-size: 6.5rem;
+    line-height: 8rem;
     margin-bottom: 3rem;
 }
 .submain-text h2 {
     font-size: 2.4rem;
+    text-align: center;
 }
 .submain-text span {
     color: var(--secondary);

@@ -10,6 +10,11 @@ module.exports = {
             entry: 'src/pages/about/main.js',
             template: 'public/about.html',
             filename: 'about.html'
+        },
+        history: {
+            entry: 'src/pages/history/main.js',
+            template: 'public/history.html',
+            filename: 'history.html'
         }
     },
 };
