@@ -1,8 +1,7 @@
 <template>
     <div id="app">
 
-        <h1>About페이지</h1>
-
+        <app-subheader></app-subheader>
         <app-about></app-about>
         <app-subbanner></app-subbanner>
         <app-best></app-best>
@@ -18,7 +17,7 @@
 </template>
 
 <script>
-
+import AppSubheader from '../../components/AppSubheader'
 import AppAbout from '../../components/AppAbout'
 import AppSubbanner from '../../components/AppSubbanner'
 import AppBest from '../../components/AppBest'
@@ -34,6 +33,7 @@ import AppFooter from '../../components/AppFooter'
 export default {
     name: 'App',
     components: {
+        AppSubheader,
         AppAbout,
         AppSubbanner,
         AppBest,

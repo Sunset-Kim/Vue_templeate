@@ -168,26 +168,5 @@ export default {}
 }
 
 
-@media screen and (max-width: 570px) {
-    .project-item {
-        display: block;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 3rem;
-    }
-    .project-item:hover .project-img img {
-        transform: scale(1.1);
-    }
-    .project-item:nth-child(odd) {
-        margin-right: 3rem;
-    }
-    .project-img {
-        width: 100%;
-        height: 250px;
-        overflow: hidden;
-    }
-    .project-img img {
-        object-fit: contain;
-    }
-}
+
 </style>
