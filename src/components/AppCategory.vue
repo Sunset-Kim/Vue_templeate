@@ -77,42 +77,6 @@ export default {}
     background: #f6f3f1 url('../assets/category/Bg.png') no-repeat right top;
     background-size: 35rem;
 }
-.title-group {
-    text-align: center;
-    margin-bottom: 9rem;
-    color: var(--text-dark);
-}
-.title-top {
-    color: var(--primary);
-    font-size: 1.8rem;
-    margin-bottom: 3.5rem;
-}
-.title-top::before,
-.title-top::after {
-    content: '';
-    display: inline-block;
-    width: 50px;
-    height: 2px;
-    background: var(--primary);
-    margin-right: 1.5rem;
-    vertical-align: middle;
-}
-.title-top::after {
-    margin-left: 1.5rem;
-}
-.title-main {
-    font-size: 5.5rem;
-    letter-spacing: -0.02em;
-    line-height: 6rem;
-    font-weight: 900;
-    margin-bottom: 1.5rem;
-}
-.title-sub {
-    font-size: 5.5rem;
-    letter-spacing: -0.02em;
-    font-weight: 300;
-}
-
 /* category  */
 .category-container .wrap {
     display: flex;
