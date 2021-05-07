@@ -4,6 +4,8 @@ import 'reset.css'
 import '../../css/custom_reset.css'
 import '../../css/modules.css'
 import '../../css/grid.css'
+import '../../css/modules_text.css'
+
 
 Vue.config.productionTip = false
 

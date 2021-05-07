@@ -6,7 +6,6 @@ import '../../css/modules.css'
 import '../../css/grid.css'
 import '../../css/modules_text.css'
 
-
 Vue.config.productionTip = false
 
 new Vue({
