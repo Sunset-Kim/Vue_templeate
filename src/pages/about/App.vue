@@ -1,12 +1,13 @@
 <template>
     <div id="app">
-
         <app-subheader></app-subheader>
-        <app-about></app-about>
+        <app-submain>
+            <img src="../../assets/header/slide01.jpg" alt="">
+            <h1 slot="title">About</h1>
+            <h2 slot="subtitle">Home > <span>About</span></h2>
+        </app-submain>
+        <app-sub-about></app-sub-about>
         <app-subbanner></app-subbanner>
-        <app-best></app-best>
-        <app-subscribe></app-subscribe>
-        <app-team></app-team>
         <app-count></app-count>
         <app-feedback></app-feedback>
         <app-logoslide></app-logoslide>
@@ -18,11 +19,9 @@
 
 <script>
 import AppSubheader from '../../components/AppSubheader'
-import AppAbout from '../../components/AppAbout'
+import AppSubmain from '../../components/AppSubmain'
+import AppSubAbout from '../../components/AppSubAbout'
 import AppSubbanner from '../../components/AppSubbanner'
-import AppBest from '../../components/AppBest'
-import AppSubscribe from '../../components/AppSubscribe'
-import AppTeam from '../../components/AppTeam'
 import AppCount from '../../components/AppCount'
 import AppFeedback from '../../components/AppFeedback'
 import AppLogoslide from '../../components/AppLogoslide'
@@ -34,11 +33,9 @@ export default {
     name: 'App',
     components: {
         AppSubheader,
-        AppAbout,
+        AppSubmain,
+        AppSubAbout,
         AppSubbanner,
-        AppBest,
-        AppSubscribe,
-        AppTeam,
         AppCount,
         AppFeedback,
         AppLogoslide,
