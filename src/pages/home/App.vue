@@ -18,20 +18,20 @@
 </template>
 
 <script>
-import AppHeader from './components/AppHeader'
-import AppCategory from './components/AppCategory'
-import AppProject from './components/AppProject'
-import AppAbout from './components/AppAbout'
-import AppSubbanner from './components/AppSubbanner'
-import AppBest from './components/AppBest'
-import AppSubscribe from './components/AppSubscribe'
-import AppTeam from './components/AppTeam'
-import AppCount from './components/AppCount'
-import AppFeedback from './components/AppFeedback'
-import AppLogoslide from './components/AppLogoslide'
-import AppNews from './components/AppNews'
-import AppContact from './components/AppContact'
-import AppFooter from './components/AppFooter'
+import AppHeader from '../../components/AppHeader'
+import AppCategory from '../../components/AppCategory'
+import AppProject from '../../components/AppProject'
+import AppAbout from '../../components/AppAbout'
+import AppSubbanner from '../../components/AppSubbanner'
+import AppBest from '../../components/AppBest'
+import AppSubscribe from '../../components/AppSubscribe'
+import AppTeam from '../../components/AppTeam'
+import AppCount from '../../components/AppCount'
+import AppFeedback from '../../components/AppFeedback'
+import AppLogoslide from '../../components/AppLogoslide'
+import AppNews from '../../components/AppNews'
+import AppContact from '../../components/AppContact'
+import AppFooter from '../../components/AppFooter'
 
 export default {
     name: 'App',
