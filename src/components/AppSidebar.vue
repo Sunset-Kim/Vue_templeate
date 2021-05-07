@@ -95,8 +95,10 @@ export default {
 
 <style scoped>
 #app-sidebar {
+    position: relative;
     width: 100%;
     height: 100%;
+    z-index: 99999;
 }
 @media screen and (min-width: 787px) {
     #app-sidebar {

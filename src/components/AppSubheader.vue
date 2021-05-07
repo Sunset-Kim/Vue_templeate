@@ -1,6 +1,13 @@
 <template>
   <div id="app-subheader">
 
+	<transition name="fade">
+		<app-sidebar
+			v-if="sidebar"
+			v-on:close="sidebar = false"
+		></app-sidebar>
+	</transition>
+
 	<div class="header-top">
 		<div class="header-wrap">
 			<div class="top-left">
@@ -74,12 +81,29 @@
 		
 	</div>
 
+	
+	
+
   </div>
 </template>
 
 <script>
-export default {
+import AppSidebar from '../components/AppSidebar'
 
+export default {
+	data(){
+		return{
+			sidebar: false,
+		}
+	},
+	components: {
+		AppSidebar
+	},
+	methods: {
+		toggleSide() {
+            this.sidebar = !this.sidebar
+        },
+	}
 }
 </script>
 
@@ -124,7 +148,6 @@ export default {
 	position: relative;
 	height: 9rem;
 	background: white;
-	z-index: 1;
 }
 .gnb .header-wrap {
 	height: 100%;
@@ -177,5 +200,16 @@ export default {
 	.btn-trigger {
 		display: block;
 	}
+}
+#app-sidebar {
+	z-index: 99999;
+}
+/* transition */
+.fade-enter-active,
+.fade-leave-active {
+    transition: .3s ease-in-out;
+}
+.fade-enter, .fade-leave-to {
+	opacity: 0;
 }
 </style>
