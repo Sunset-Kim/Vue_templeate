@@ -111,7 +111,6 @@ export default {
 /* wrap */
 .header-wrap {
 	max-width: 1400px;
-	margin: 0 auto;
 }
 /* header-top */
 .header-top {
