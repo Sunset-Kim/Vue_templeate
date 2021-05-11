@@ -21,5 +21,10 @@ module.exports = {
             template: 'public/project.html',
             filename: 'project.html',
         },
+        project_img: {
+            entry: 'src/pages/project_img/main.js',
+            template: 'public/project_img.html',
+            filename: 'project_img.html',
+        },
     },
 }
