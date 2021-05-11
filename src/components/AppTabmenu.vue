@@ -5,15 +5,15 @@
           <div class="wrap">
             <div class="row">
 
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-4">
                 <a v-bind:class="{active: menuGroup.menu1}" v-on:click="toggleMenu" class="btn-main-ef btn-primary" href="#none" data-index="1">mission & vision</a>
               </div>
 
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-4">
                 <a v-bind:class="{active: menuGroup.menu2}" v-on:click="toggleMenu" class="btn-main-ef btn-primary" href="#none" data-index="2">our Goal</a>
               </div>
 
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-4">
                 <a v-bind:class="{active: menuGroup.menu3}" v-on:click="toggleMenu" class="btn-main-ef btn-primary" href="#none" data-index="3">Company History</a>
               </div>
 
@@ -31,7 +31,7 @@
               <div class="wrap">
                 <div class="row">
 
-                  <div class="col-lg-5">
+                  <div class="col-lg-5 col-md-8 col-sm-6">
 
                     <div class="content-title">
                       <h2>Change World</h2>
@@ -105,209 +105,7 @@
 
                   <div class="col-lg-1 col-md-0"></div>
 
-                  <div class="col-lg-6">
-
-                    <div class="content-img">
-                      <img src="../assets/header/slide01.jpg" alt="이미지메인">
-
-                      <div class="content-img-sub">
-                        <img src="../assets/best/01.jpg" alt="이미지보조">
-                      </div>
-
-                      <div class="content-img-effect">
-                        <img src="../assets/subpage/content-effect.png" alt="이미지효과">
-                      </div>
-
-                    </div>
-                    
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </transition>
-
-          <transition name="fade">
-            <div v-if="menuGroup.menu2" class="tapmenu-content">
-              <div class="wrap">
-                <div class="row">
-
-                  <div class="col-lg-5">
-
-                    <div class="content-title">
-                      <h2>Change World</h2>
-                      <h4>Better Future</h4>
-                    </div>
-
-                    <div class="content-main">
-                      <p>
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accusantium doloremque laudantium totam aperiam
-                        eaque ipsa quaab inventore veritatis quasi architecto
-                        beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                        voluptatem quia voluptas sit aspernatur aut
-                      </p>
-                    </div>
-
-                    <div class="content-list">
-                      <ul>
-                        <li>
-
-                          <i class="icon-check">
-                            <i class="fas fa-check"></i>
-                          </i>
-
-                          <span>
-                            SEO Belong In Your Web Design Process
-                          </span>
-
-                        </li>
-
-                        <li>
-
-                          <i class="icon-check">
-                            <i class="fas fa-check"></i>
-                          </i>
-
-                          <span>
-                            Build Music Manager With Nuxt And Express
-                          </span>
-                          
-                        </li>
-
-                        <li>
-
-                          <i class="icon-check">
-                            <i class="fas fa-check"></i>
-                          </i>
-
-                          <span>
-                            What Does Foldable Web Actually Mean
-                          </span>
-                          
-                        </li>
-
-                        <li>
-
-                          <i class="icon-check">
-                            <i class="fas fa-check"></i>
-                          </i>
-
-                          <span>
-                            How To Build Simple Cryptocurrency
-                          </span>
-                          
-                        </li>
-                      </ul>
-                    </div>
-
-
-                  </div>
-
-                  <div class="col-lg-1 col-md-0"></div>
-
-                  <div class="col-lg-6">
-
-                    <div class="content-img">
-                      <img src="../assets/header/slide01.jpg" alt="이미지메인">
-
-                      <div class="content-img-sub">
-                        <img src="../assets/best/01.jpg" alt="이미지보조">
-                      </div>
-
-                      <div class="content-img-effect">
-                        <img src="../assets/subpage/content-effect.png" alt="이미지효과">
-                      </div>
-
-                    </div>
-                    
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </transition>
-
-          <transition name="fade">
-            <div v-if="menuGroup.menu3" class="tapmenu-content">
-              <div class="wrap">
-                <div class="row">
-
-                  <div class="col-lg-5">
-
-                    <div class="content-title">
-                      <h2>Change World</h2>
-                      <h4>Better Future</h4>
-                    </div>
-
-                    <div class="content-main">
-                      <p>
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accusantium doloremque laudantium totam aperiam
-                        eaque ipsa quaab inventore veritatis quasi architecto
-                        beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                        voluptatem quia voluptas sit aspernatur aut
-                      </p>
-                    </div>
-
-                    <div class="content-list">
-                      <ul>
-                        <li>
-
-                          <i class="icon-check">
-                            <i class="fas fa-check"></i>
-                          </i>
-
-                          <span>
-                            SEO Belong In Your Web Design Process
-                          </span>
-
-                        </li>
-
-                        <li>
-
-                          <i class="icon-check">
-                            <i class="fas fa-check"></i>
-                          </i>
-
-                          <span>
-                            Build Music Manager With Nuxt And Express
-                          </span>
-                          
-                        </li>
-
-                        <li>
-
-                          <i class="icon-check">
-                            <i class="fas fa-check"></i>
-                          </i>
-
-                          <span>
-                            What Does Foldable Web Actually Mean
-                          </span>
-                          
-                        </li>
-
-                        <li>
-
-                          <i class="icon-check">
-                            <i class="fas fa-check"></i>
-                          </i>
-
-                          <span>
-                            How To Build Simple Cryptocurrency
-                          </span>
-                          
-                        </li>
-                      </ul>
-                    </div>
-
-
-                  </div>
-
-                  <div class="col-lg-1 col-md-0"></div>
-
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 col-md-4 col-sm-6">
 
                     <div class="content-img">
                       <img src="../assets/header/slide01.jpg" alt="이미지메인">
@@ -342,7 +140,7 @@ export default {
 	data() {
 		return {
       menuGroup: {
-        menu1: 0,
+        menu1: 1,
         menu2: 0,
         menu3: 0,
       }
@@ -369,7 +167,7 @@ export default {
 #app-tabmenu {
 }
 #app-tabmenu .wrap {
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 #app-tabmenu input {
@@ -423,7 +221,6 @@ export default {
 	padding-top: 4rem;
 }
 .tapmenu-container {
-  overflow-X: hidden;
 }
 .content-title {
 	margin-bottom: 4rem;
@@ -450,6 +247,8 @@ export default {
 /* content-list */
 .content-list {}
 .content-list li {
+  display: flex;
+  align-items: center;
 	margin-bottom: 1.5rem;
 }
 .content-list i.icon-check {
@@ -463,6 +262,12 @@ export default {
 	margin-right: 1.5rem;
 
 	color: #907cf4;
+}
+.content-list span {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* content img */
