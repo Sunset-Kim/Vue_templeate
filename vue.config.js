@@ -17,4 +17,7 @@ module.exports = {
             filename: 'history.html'
         }
     },
+    devServer: {
+        overlay: false
+    }
 };

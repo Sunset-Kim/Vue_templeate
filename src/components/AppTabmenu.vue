@@ -6,15 +6,15 @@
             <div class="row">
 
               <div class="col-lg-4">
-                <a v-bind:class="{active: menu1}" class="btn-main-ef btn-primary" href="#none" data-index="0">mission & vision</a>
+                <a v-bind:class="{active: menuGroup.menu1}" v-on:click="toggleMenu" class="btn-main-ef btn-primary" href="#none" data-index="1">mission & vision</a>
               </div>
 
               <div class="col-lg-4">
-                <a class="btn-main-ef btn-primary" href="#none" data-index="1">our Goal</a>
+                <a v-bind:class="{active: menuGroup.menu2}" v-on:click="toggleMenu" class="btn-main-ef btn-primary" href="#none" data-index="2">our Goal</a>
               </div>
 
               <div class="col-lg-4">
-                <a class="btn-main-ef btn-primary" href="#none" data-index="2">Company History</a>
+                <a v-bind:class="{active: menuGroup.menu3}" v-on:click="toggleMenu" class="btn-main-ef btn-primary" href="#none" data-index="3">Company History</a>
               </div>
 
             </div>
@@ -132,18 +132,35 @@
 export default {
 	data() {
 		return {
-
+      menuGroup: {
+        menu1: 0,
+        menu2: 0,
+        menu3: 0,
+      }
 		}
-	}
+	},
+  methods: {
+    toggleMenu(e) {
+      let index = e.target.dataset.index;
+      for(let menu in this.menuGroup) {
+        this.menuGroup[menu] = 0;
+        if(menu === `menu${index}`) {
+          this.menuGroup[menu] = 1;
+        }
+      }
+
+    
+      
+    }
+  }
 }
 </script>
 
 <style>
 #app-tabmenu {
-	overflow-X: hidden;
 }
 #app-tabmenu .wrap {
-	
+	overflow-x: hidden;
 }
 
 #app-tabmenu input {
