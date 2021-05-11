@@ -1,6 +1,12 @@
 /* grid */
 /* gutter 30px */
 /* unit 70px */
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 div[class^=col] {
     padding: 0 15px;
 }

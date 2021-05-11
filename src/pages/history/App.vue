@@ -8,6 +8,7 @@
         </app-submain>
         <app-history-about></app-history-about>
         <app-subbanner></app-subbanner>
+        <app-tabmenu></app-tabmenu>
         <app-contact></app-contact>
         <app-footer></app-footer>
     </div>
@@ -18,6 +19,7 @@ import AppSubheader from '../../components/AppSubheader'
 import AppSubmain from '../../components/AppSubmain'
 import AppHistoryAbout from '../../components/AppHistoryAbout'
 import AppSubbanner from '../../components/AppSubbanner'
+import AppTabmenu from '../../components/AppTabmenu'
 
 import AppContact from '../../components/AppContact'
 import AppFooter from '../../components/AppFooter'
@@ -29,6 +31,7 @@ export default {
         AppSubmain,
         AppHistoryAbout,
         AppSubbanner,
+        AppTabmenu,
         AppContact,
         AppFooter
     },
