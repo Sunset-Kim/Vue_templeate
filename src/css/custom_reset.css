@@ -22,12 +22,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-/* layout */
-.wrap {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-/* ti */
 
 /* break point */
 @media screen and (max-width: 1024px) {
@@ -39,7 +33,6 @@ a {
         max-width: 1170px;
         margin: 0 auto;
     }
-
 }
 
 @media screen and (max-width: 786px) {
