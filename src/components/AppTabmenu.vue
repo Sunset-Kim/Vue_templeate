@@ -25,103 +25,312 @@
             
         </div>
 
-        <div class="tapmenu-content">
-          <div class="wrap">
-            <div class="row">
+        <div class="tapmenu-container">
+          <transition name="fade">
+            <div v-if="menuGroup.menu1" class="tapmenu-content">
+              <div class="wrap">
+                <div class="row">
 
-              <div class="col-lg-5">
+                  <div class="col-lg-5">
 
-                <div class="content-title">
-                  <h2>Change World</h2>
-                  <h4>Better Future</h4>
-                </div>
+                    <div class="content-title">
+                      <h2>Change World</h2>
+                      <h4>Better Future</h4>
+                    </div>
 
-                <div class="content-main">
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natu voluptatem
-                    accusantium doloremque laudantium totam aperiam
-                    eaque ipsa quaab inventore veritatis quasi architecto
-                    beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut
-                  </p>
-                </div>
+                    <div class="content-main">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natu voluptatem
+                        accusantium doloremque laudantium totam aperiam
+                        eaque ipsa quaab inventore veritatis quasi architecto
+                        beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                        voluptatem quia voluptas sit aspernatur aut
+                      </p>
+                    </div>
 
-                <div class="content-list">
-                  <ul>
-                    <li>
+                    <div class="content-list">
+                      <ul>
+                        <li>
 
-                      <i class="icon-check">
-                        <i class="fas fa-check"></i>
-                      </i>
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
 
-                      <span>
-                        SEO Belong In Your Web Design Process
-                      </span>
+                          <span>
+                            SEO Belong In Your Web Design Process
+                          </span>
 
-                    </li>
+                        </li>
 
-                    <li>
+                        <li>
 
-                      <i class="icon-check">
-                        <i class="fas fa-check"></i>
-                      </i>
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
 
-                      <span>
-                        Build Music Manager With Nuxt And Express
-                      </span>
-                      
-                    </li>
+                          <span>
+                            Build Music Manager With Nuxt And Express
+                          </span>
+                          
+                        </li>
 
-                    <li>
+                        <li>
 
-                      <i class="icon-check">
-                        <i class="fas fa-check"></i>
-                      </i>
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
 
-                      <span>
-                        What Does Foldable Web Actually Mean
-                      </span>
-                      
-                    </li>
+                          <span>
+                            What Does Foldable Web Actually Mean
+                          </span>
+                          
+                        </li>
 
-                    <li>
+                        <li>
 
-                      <i class="icon-check">
-                        <i class="fas fa-check"></i>
-                      </i>
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
 
-                      <span>
-                        How To Build Simple Cryptocurrency
-                      </span>
-                      
-                    </li>
-                  </ul>
-                </div>
+                          <span>
+                            How To Build Simple Cryptocurrency
+                          </span>
+                          
+                        </li>
+                      </ul>
+                    </div>
 
 
-              </div>
-
-              <div class="col-lg-1 col-md-0"></div>
-
-              <div class="col-lg-6">
-
-                <div class="content-img">
-                  <img src="../assets/header/slide01.jpg" alt="이미지메인">
-
-                  <div class="content-img-sub">
-                    <img src="../assets/best/01.jpg" alt="이미지보조">
                   </div>
 
-                  <div class="content-img-effect">
-                    <img src="../assets/subpage/content-effect.png" alt="이미지효과">
+                  <div class="col-lg-1 col-md-0"></div>
+
+                  <div class="col-lg-6">
+
+                    <div class="content-img">
+                      <img src="../assets/header/slide01.jpg" alt="이미지메인">
+
+                      <div class="content-img-sub">
+                        <img src="../assets/best/01.jpg" alt="이미지보조">
+                      </div>
+
+                      <div class="content-img-effect">
+                        <img src="../assets/subpage/content-effect.png" alt="이미지효과">
+                      </div>
+
+                    </div>
+                    
                   </div>
 
                 </div>
-								
               </div>
-
             </div>
-          </div>
+          </transition>
+
+          <transition name="fade">
+            <div v-if="menuGroup.menu2" class="tapmenu-content">
+              <div class="wrap">
+                <div class="row">
+
+                  <div class="col-lg-5">
+
+                    <div class="content-title">
+                      <h2>Change World</h2>
+                      <h4>Better Future</h4>
+                    </div>
+
+                    <div class="content-main">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natu voluptatem
+                        accusantium doloremque laudantium totam aperiam
+                        eaque ipsa quaab inventore veritatis quasi architecto
+                        beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                        voluptatem quia voluptas sit aspernatur aut
+                      </p>
+                    </div>
+
+                    <div class="content-list">
+                      <ul>
+                        <li>
+
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
+
+                          <span>
+                            SEO Belong In Your Web Design Process
+                          </span>
+
+                        </li>
+
+                        <li>
+
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
+
+                          <span>
+                            Build Music Manager With Nuxt And Express
+                          </span>
+                          
+                        </li>
+
+                        <li>
+
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
+
+                          <span>
+                            What Does Foldable Web Actually Mean
+                          </span>
+                          
+                        </li>
+
+                        <li>
+
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
+
+                          <span>
+                            How To Build Simple Cryptocurrency
+                          </span>
+                          
+                        </li>
+                      </ul>
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-lg-1 col-md-0"></div>
+
+                  <div class="col-lg-6">
+
+                    <div class="content-img">
+                      <img src="../assets/header/slide01.jpg" alt="이미지메인">
+
+                      <div class="content-img-sub">
+                        <img src="../assets/best/01.jpg" alt="이미지보조">
+                      </div>
+
+                      <div class="content-img-effect">
+                        <img src="../assets/subpage/content-effect.png" alt="이미지효과">
+                      </div>
+
+                    </div>
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </transition>
+
+          <transition name="fade">
+            <div v-if="menuGroup.menu3" class="tapmenu-content">
+              <div class="wrap">
+                <div class="row">
+
+                  <div class="col-lg-5">
+
+                    <div class="content-title">
+                      <h2>Change World</h2>
+                      <h4>Better Future</h4>
+                    </div>
+
+                    <div class="content-main">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natu voluptatem
+                        accusantium doloremque laudantium totam aperiam
+                        eaque ipsa quaab inventore veritatis quasi architecto
+                        beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                        voluptatem quia voluptas sit aspernatur aut
+                      </p>
+                    </div>
+
+                    <div class="content-list">
+                      <ul>
+                        <li>
+
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
+
+                          <span>
+                            SEO Belong In Your Web Design Process
+                          </span>
+
+                        </li>
+
+                        <li>
+
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
+
+                          <span>
+                            Build Music Manager With Nuxt And Express
+                          </span>
+                          
+                        </li>
+
+                        <li>
+
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
+
+                          <span>
+                            What Does Foldable Web Actually Mean
+                          </span>
+                          
+                        </li>
+
+                        <li>
+
+                          <i class="icon-check">
+                            <i class="fas fa-check"></i>
+                          </i>
+
+                          <span>
+                            How To Build Simple Cryptocurrency
+                          </span>
+                          
+                        </li>
+                      </ul>
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-lg-1 col-md-0"></div>
+
+                  <div class="col-lg-6">
+
+                    <div class="content-img">
+                      <img src="../assets/header/slide01.jpg" alt="이미지메인">
+
+                      <div class="content-img-sub">
+                        <img src="../assets/best/01.jpg" alt="이미지보조">
+                      </div>
+
+                      <div class="content-img-effect">
+                        <img src="../assets/subpage/content-effect.png" alt="이미지효과">
+                      </div>
+
+                    </div>
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </transition>
+          
+
+          
         </div>
         
     
@@ -213,6 +422,9 @@ export default {
 .tapmenu-content {
 	padding-top: 4rem;
 }
+.tapmenu-container {
+  overflow-X: hidden;
+}
 .content-title {
 	margin-bottom: 4rem;
 }
@@ -284,5 +496,14 @@ export default {
 	position: absolute;
 	right: -10%;
 	bottom: -10%;
+}
+
+/* transition */
+.fade-enter-active {
+  transition: all 1s ease;
+}
+.fade-enter {
+  transform: translateX(10px);
+  opacity: 0;
 }
 </style>
