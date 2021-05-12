@@ -11,6 +11,16 @@ button {
     border: none;
 }
 /* shape & size */
+.btn-padding {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 .btn-100 {
     display: inline-flex;
     justify-content: center;
@@ -46,6 +56,17 @@ button {
     justify-content: center;
     align-items: center;
     width: 19rem;
+    height: 6rem;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-220 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
     height: 6rem;
     border-radius: 3rem;
     font-size: 1.4rem;
