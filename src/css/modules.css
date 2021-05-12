@@ -147,3 +147,20 @@ button {
     letter-spacing: -0.02em;
     font-weight: 300;
 }
+
+/* 라벨모듈 */
+
+/* 사이즈 */
+.label-170 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 5.5rem;
+    font-size: 2.4rem;
+    border-radius: 5.5rem;
+
+}
+
+/* 색상 */
+/* 버튼색상과 공유 */
