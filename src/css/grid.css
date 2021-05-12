@@ -15,6 +15,11 @@
 div[class^='col'] {
     padding: 0 15px;
 }
+@media screen and (max-width: 786px) {
+    div[class^='col'] {
+        padding: 0 5px;
+    }
+}
 
 .col-lg-0 {
     width: calc(100% / 12 * 0);
