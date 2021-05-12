@@ -22,6 +22,14 @@ button {
     font-weight: bold;
     text-transform: uppercase;
 }
+.btn-150 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 6rem;
+    border-radius: 6rem;
+}
 .btn-160 {
     display: inline-flex;
     justify-content: center;
@@ -71,6 +79,19 @@ button {
     left: 0px;
     right: auto;
 }
+/* label */
+.label-120 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 3.2rem;
+    border-radius: 3.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
 /* bg */
 .btn-primary {
     background: var(--primary);
@@ -109,58 +130,20 @@ button {
 .btn-outlined::before {
     background: var(--secondary);
 }
-
-
-/* 타이틀 모듈 */
-.title-group {
-    text-align: center;
-    margin-bottom: 9rem;
-    color: var(--text-dark);
-}
-.title-top {
-    color: var(--primary);
-    font-size: 1.8rem;
-    margin-bottom: 3.5rem;
-}
-.title-top::before,
-.title-top::after {
-    content: '';
-    display: inline-block;
-    width: 50px;
-    height: 2px;
-    background: var(--primary);
-    margin-right: 1.5rem;
-    vertical-align: middle;
-}
-.title-top::after {
-    margin-left: 1.5rem;
-}
-.title-main {
-    font-size: 5.5rem;
-    letter-spacing: -0.02em;
-    line-height: 6rem;
-    font-weight: 900;
-    margin-bottom: 1.5rem;
-}
-.title-sub {
-    font-size: 5.5rem;
-    letter-spacing: -0.02em;
-    font-weight: 300;
-}
-
-/* 라벨모듈 */
-
-/* 사이즈 */
-.label-170 {
+/* count btn */
+.btn-count {
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 17rem;
-    height: 5.5rem;
-    font-size: 2.4rem;
-    border-radius: 5.5rem;
-
+    justify-content: space-between;
+    padding: 0 1rem;
+    border: 2px solid #e6e6e6;
+    font-weight: bold;
+    font-size: 2.2rem;
 }
-
-/* 색상 */
-/* 버튼색상과 공유 */
+.btn-count i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+.btn-count i:hover {
+    color: var(--primary);
+}

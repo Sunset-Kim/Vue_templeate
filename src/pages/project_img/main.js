@@ -6,6 +6,7 @@ import '../../css/modules.css'
 import '../../css/grid.css'
 import '../../css/modules_text.css'
 import '../../css/modules_project.css'
+import '../../css/modules_funding.css'
 
 Vue.config.productionTip = false
 

@@ -1,3 +1,40 @@
+/* 타이틀 모듈 */
+.title-group {
+    text-align: center;
+    margin-bottom: 9rem;
+    color: var(--text-dark);
+}
+.title-top {
+    color: var(--primary);
+    font-size: 1.8rem;
+    margin-bottom: 3.5rem;
+}
+.title-top::before,
+.title-top::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background: var(--primary);
+    margin-right: 1.5rem;
+    vertical-align: middle;
+}
+.title-top::after {
+    margin-left: 1.5rem;
+}
+.title-main {
+    font-size: 5.5rem;
+    letter-spacing: -0.02em;
+    line-height: 6rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+.title-sub {
+    font-size: 5.5rem;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+}
+
 /* 프로젝트 모듈 */
 
 .project-item {
@@ -129,7 +166,7 @@
     line-height: 5rem;
     margin-bottom: 4rem;
 }
-.btn-text-group span{
+.btn-text-group span {
     font-size: 2.4rem;
     margin-right: 2rem;
 }
@@ -137,7 +174,7 @@
     font-size: 3rem;
     color: var(--primary);
 }
-.text-desc p{
+.text-desc p {
     font-size: 1.5rem;
     line-height: 2.8rem;
     color: var(--text-sub);
@@ -187,8 +224,8 @@
 }
 @media screen and (max-width: 640px) {
     .icon-desc-item {
-    width: 100%;
-}
+        width: 100%;
+    }
     .icon-desc-item:nth-child(odd) {
         padding-right: 0;
     }

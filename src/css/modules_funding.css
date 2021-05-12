@@ -1,0 +1,107 @@
+/* funding-container */
+.funding-container {
+    display: flex;
+}
+
+/* funding-img */
+.funding-img {
+    flex: 7;
+    background: black;
+}
+.funding-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* funding-text */
+.funding-text {
+    flex: 5;
+    padding: 5rem;
+    background: white;
+}
+.funding-text .label-120 {
+    margin-bottom: 2.5rem;
+}
+.funding-text .funding-title {
+    margin-bottom: 3.5rem;
+
+    font-size: 3rem;
+    line-height: 3.8rem;
+    font-weight: bold;
+}
+/* author info */
+.funding-text .funding-author {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.funding-author .author-img {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 2.5rem;
+}
+.funding-author .author-text {
+    flex: 1;
+}
+
+.author-text h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+.author-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: var(--text-sub);
+}
+.author-info i {
+    color: var(--primary);
+}
+/* funding progress */
+.progress-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.progress-info .price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-sub);
+}
+.progress-info .price strong {
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+.progress-info .percentage {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.funding-progress {
+    margin-bottom: 3rem;
+}
+.funding-progress .progress-bar {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: #e8eeee;
+}
+.funding-progress .progress-bar .progress-bar-inner {
+    width: 95%;
+    height: inherit;
+    background: var(--primary);
+}
+/* funding-desc */
+.funding-desc {
+    margin-bottom: 3.5rem;
+    color: var(--text-sub);
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+}
+/* funding btn group */
+.funding-btn-group .btn-count {
+    margin-right: 1.5rem;
+}
