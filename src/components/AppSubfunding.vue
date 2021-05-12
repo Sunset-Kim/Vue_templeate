@@ -120,20 +120,6 @@ export default {
 <style>
 #app-subfunding {
     padding: 13rem 0;
-    background: #f6f3f1;
-}
-.bounce-enter-active {
-    animation: bounce-in 0.5s;
-}
-@keyframes bounce-in {
-    0% {
-        transform: scale(0);
-    }
-    50% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1);
-    }
+    background: #f6f3f1 url(../assets/subpage/Bg-pattern.png);
 }
 </style>

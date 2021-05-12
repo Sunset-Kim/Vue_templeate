@@ -105,3 +105,27 @@
 .funding-btn-group .btn-count {
     margin-right: 1.5rem;
 }
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+    .funding-container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .funding-btn-group .btn-count {
+        display: flex;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    /* author */
+    .author-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .author-info span:first-child {
+        margin-bottom: .5rem;
+    }
+
+}
