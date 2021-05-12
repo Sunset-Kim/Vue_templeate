@@ -514,6 +514,21 @@ export default {
 	right: -10%;
 	bottom: -10%;
 }
+/* responsive */
+@media screen and (max-width: 786px) {
+  .content-title {
+    margin-bottom: 2rem;
+  }
+  .content-title h2{
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .content-title h4{
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
+
 
 /* transition */
 .fade-enter-active {

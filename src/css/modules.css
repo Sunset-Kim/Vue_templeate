@@ -92,6 +92,18 @@ button {
     font-size: 1.4rem;
 }
 
+.label-170 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 5.5rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
 /* bg */
 .btn-primary {
     background: var(--primary);

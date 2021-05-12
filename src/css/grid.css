@@ -11,9 +11,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 div[class^='col'] {
     padding: 0 15px;
 }
+
 .col-lg-0 {
     width: calc(100% / 12 * 0);
     padding: 0 !important;
